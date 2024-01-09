@@ -63,4 +63,8 @@ const modalbell = () => (bell.value = !bell.value);
 console.log();
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.router-link-exact-active{
+    color: #1976DC;
+  }
+</style>
