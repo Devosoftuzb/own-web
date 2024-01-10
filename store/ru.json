@@ -1,0 +1,75 @@
+{
+    "header-home":"Глава",
+    "header-about":"Про нас",
+    "header-service":"Услуги",
+    "header-contact":"Контакты",
+
+    "Hero-title":"DevoSoft - для тех кто ценит время",
+    "Hero-btn":"Связатся",
+
+    "section3-title":"Наши сильные стороны",
+    "section3-card1-title":"Качественные услуги",
+    "section3-card2-title":"Система безопасности",
+    "section3-card3-title":"Доступная цена",
+    "section3-card4-title":"Качественные услуги",
+
+    "section4-title":"О нас",
+    "section4-btn":"Узнать больше",
+
+    "section5-title":"Все наши услуги",
+    "section5-card1-title":"Автоматизация бизнеса",
+    "section5-btn":"Больше",
+
+    "section6-title":"Безопасное обслуживание",
+    "section6-subtitle1":"Защищен от хакерских атак",
+    "section6-subtitle2":"Безопасность данных",
+    "section6-subtitle3":"Надежные услуги",
+    "section6-btn":"Связьтся",
+
+
+    "section7-title":"Низкие цены",
+    "section7-subtitle1":"Простое пополнение",
+    "section7-subtitle4":"Регулярные акции",
+    "section7-subtitle3":"Скидки",
+    "section7-btn":"Связьтся",
+
+    "section8-title":"Связаться с нами",
+    "section8-form-name":"Имя Фамилия",
+    "section8-form-tel":"Ваш номер телефона *",
+    "section8-form-xizmat":"Тип обслуживания *",
+    "section8-form-maqsad":"Ваша цель *",
+    "section8-btn":"Отправить",
+
+    "footer-mediya":"Подпишитесь на нас",
+    "footer-links":"Ссылки",
+    "footer-link-home":"Глава",
+    "footer-link-about":"Про нас",
+    "footer-link-service":"Услуги",
+    "footer-link-contact":"Контакты",
+    "footer-info":"Информация",
+    "footer-location":"Гулистанский городской молодежный центр Адрес: 6 квартал",
+
+
+
+    "page2-hero-title":"Наш опытный персонал",
+    "page2-hero-btn":"Связьтся",
+
+    
+    "page3-hero-title":"Автоматизация бизнеса",
+    "page3-hero-btn":"Связатся",
+
+    "page3-hero-card1-title":"CRM система",
+    "page3-hero-card2-title":"WMS система",
+    "page3-hero-card3-title":"LMS система",
+    "page3-hero-card4-title":"HRM система",
+
+
+    "page4-hero-title":"CRM система",
+    "page4-hero-btn":"Связатся",
+    "page4-form-name":"Название организации *",
+    "page4-form-tel":"Номер телефона *",
+    "page4-form-maqsadi":"Кратко про цель *",
+    "page4-form-ism":"Имя Фамилия *",
+    "page4-form-crm":"Вид CRM *",
+    "page4-form-btn":"Отправить"
+}

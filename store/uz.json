@@ -1,0 +1,71 @@
+{
+    "header-home":"Bosh sahifa",
+    "header-about":"Biz Haqimizda",
+    "header-service":"Xizmatlar",
+    "header-contact":"Bog`lanish",
+
+    "Hero-title":"DevoSoft -  vaqtni qadirlovchilar uchun",
+    "Hero-btn":"Bog`lanish",
+
+    "section3-title":"Bizning kuchli tomonlarimiz",
+    "section3-card1-title":"Sifatli xizmatlar",
+    "section3-card2-title":"Xafsizlik tizimi",
+    "section3-card3-title":"Hamyonbob narx",
+    "section3-card4-title":"Sifatli xizmatlar",
+
+    "section4-title":"Biz haqimizda",
+    "section4-btn":"Ko’proq bilish",
+
+    "section5-title":"Bizning barcha xizmatlar",
+    "section5-card1-title":"Biznesni avtomatlashtirish",
+    "section5-btn":"Ko’proq",
+
+    "section6-title":"Xavsiz servis",
+    "section6-subtitle1":"Hakerlik hujumlaridan himoyalangan",
+    "section6-subtitle2":"Malumotlarning xafsizligi",
+    "section6-subtitle3":"Ishonchli hizmatlar",
+    "section6-btn":"Bog’lanish",
+
+    "section7-title":"Arzon Narxlar",
+    "section7-subtitle1":"Onson tulov usullari",
+    "section7-subtitle4":"Doimiy aksiyalar",
+    "section7-subtitle3":"Chegirmalar",
+    "section7-btn":"Bog’lanish",
+
+    "section8-title":"Biz bilan bog’lanish",
+    "section8-form-name":"Ism familya *",
+    "section8-form-tel":"Telefon raqamingiz *",
+    "section8-form-xizmat":"Xizmat turi *",
+    "section8-form-maqsad":"Maqsadingiz *",
+    "section8-btn":"Yuborish",
+
+    "footer-mediya":"Obuna boʻling",
+    "footer-links":"Havolalar",
+    "footer-link-home":"Bosh sahifa",
+    "footer-link-about":"Biz haqimizda",
+    "footer-link-service":"Xizmatlar",
+    "footer-link-contact":"Bog’lanish",
+    "footer-info":"Malumot uchun",
+    "footer-location":"Guliston shahar Yoshlar markazi Manzil:6-mavze",
+
+    "page2-hero-title":"Bizning tajribali hodimlar",
+    "page2-hero-btn":"Bog’lanish",
+
+
+    "page3-hero-title":"Biznesni avtomaylashtirish",
+    "page3-hero-btn":"Bog’lanish",
+
+    "page3-hero-card1-title":"CRM sistema",
+    "page3-hero-card2-title":"WMS sistema",
+    "page3-hero-card3-title":"LMS sistema",
+    "page3-hero-card4-title":"HRM sistema",
+
+    "page4-hero-title":"CRM sistemasi",
+    "page4-hero-btn":"Bog’lanish",
+    "page4-form-name":"Tashkilot nomi *",
+    "page4-form-tel":"Telefon raqam *",
+    "page4-form-maqsadi":"Qisqacha maqsadiz *",
+    "page4-form-ism":"Ism familya *",
+    "page4-form-crm":"CRM turi *",
+    "page4-form-btn":"Jo’natish"
+}
