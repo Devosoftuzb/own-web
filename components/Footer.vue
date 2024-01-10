@@ -1,11 +1,12 @@
 <template>
   <footer class="relative bg-[#07081A] pb-20">
-    <div class="container mx-auto p-5 border-t">
+    <img class="lg:block hidden absolute 2xl:left-[400px] left-[200px] bottom-0" src="../public/footer/footer.png" alt="">
+    <div class="lg:hidden container mx-auto p-5 border-t">
       <div class="flex justify-between">
         <div class="flex flex-col gap-4">
           <img src="../public/Logo.png" alt="Logo team" />
           <h3 class="text-white text-[26px] font-['Roboto'] ml-[40px]">
-            Folow us on
+            Folow us on 
           </h3>
           <div
             class="text-[#1976DC] text-[24px] flex itmes-center gap-3 ml-[40px]"

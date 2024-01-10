@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-transparent fixed z-10 w-full">
+  <header class="bg-[#07081A] fixed z-10 w-full">
     <div class="container mx-auto p-5 border-b">
       <nav class="hidden lg:flex w-full flex items-center justify-between">
         <div>
@@ -107,21 +107,23 @@
             <i class="bx bx-menu"></i>
           </button>
 
-          <ul
+          <div
             :class="
               menu
-                ? 'fixed left-0 top-0 z-10 pt-20 bg-[#323459] w-full h-[100vh] flex flex-col items-center gap-8 text-[18px] text-white font-[Poppins] font-light'
+                ? 'fixed left-0 top-0 z-10 pt-20 bg-[#323459] w-full h-[100vh] text-[18px] text-white font-[Poppins] font-light'
                 : 'hidden'
             "
           >
-            <div class="relative">
-              <div class="flex items-center">
-                <button class="text-[#1976DC] text-[30px]">
+            <div class="container mx-auto relative w-full">
+              <div
+                class="absolute top-[-60px] flex items-center justify-between w-full px-5"
+              >
+                <button @click="modalmenu" class="text-[#1976DC] text-[35px]">
                   <i class="bx bx-x"></i>
                 </button>
                 <button
                   @click="modalbell"
-                  class="text-[#1976DC] text-[25px] cursor-pointer flex items-center"
+                  class="text-[#1976DC] mb-1 text-[25px] cursor-pointer flex items-center"
                 >
                   <i class="bx bxs-bell flex items-start">
                     <svg
@@ -139,7 +141,7 @@
               <div
                 :class="
                   bell
-                    ? 'absolute right-0 top-8 bg-[#323459] flex flex-col'
+                    ? 'absolute right-14 border rounded-l-lg rounded-b-lg top-0 bg-[#323459] flex flex-col'
                     : 'hidden'
                 "
               >
@@ -152,19 +154,21 @@
                 >
               </div>
             </div>
-            <li class="hover:font-bold">
-              <NuxtLink to="/">Home</NuxtLink>
-            </li>
-            <li class="hover:font-bold">
-              <NuxtLink to="about">About</NuxtLink>
-            </li>
-            <li class="hover:font-bold">
-              <NuxtLink to="service">Service</NuxtLink>
-            </li>
-            <li class="hover:font-bold">
-              <NuxtLink to="contact">Contact</NuxtLink>
-            </li>
-          </ul>
+            <ul :class="bell ? 'hidden' : 'flex flex-col items-center gap-8'">
+              <li class="hover:font-bold">
+                <NuxtLink to="/">Home</NuxtLink>
+              </li>
+              <li class="hover:font-bold">
+                <NuxtLink to="about">About</NuxtLink>
+              </li>
+              <li class="hover:font-bold">
+                <NuxtLink to="service">Service</NuxtLink>
+              </li>
+              <li class="hover:font-bold">
+                <NuxtLink to="contact">Contact</NuxtLink>
+              </li>
+            </ul>
+          </div>
 
           <div>
             <NuxtLink to="/">
@@ -187,7 +191,7 @@
             <div
               :class="
                 lang
-                  ? 'absolute z-10 left-0 top-10 bg-[#323459] flex flex-col'
+                  ? 'absolute z-10 right-0 top-10 rounded-l-lg rounded-b-lg bg-[#323459] flex flex-col'
                   : 'hidden'
               "
             >
@@ -232,7 +236,15 @@ const modalbell = () => {
 };
 
 const menu = ref(false);
-const modalmenu = () => (menu.value = !menu.value);
+const modalmenu = () => {
+  if (menu.value || !menu.value) {
+    lang.value = false;
+    bell.value = false;
+    menu.value = !menu.value;
+  } else {
+    menu.value = !menu.value;
+  }
+}
 </script>
   
   <style lang="scss" scoped>
