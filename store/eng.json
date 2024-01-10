@@ -1,0 +1,73 @@
+{
+    "header-home":"Home",
+    "header-about":"About",
+    "header-service":"Service",
+    "header-contact":"Contact",
+
+    "Hero-title":"DevoSoft - for those who value time",
+    "Hero-btn":"Contact",
+
+    "section3-title":"Our strengths",
+    "section3-card1-title":"Quality services",
+    "section3-card2-title":"Система безопасности",
+    "section3-card3-title":"Safety system",
+    "section3-card4-title":"Quality services",
+
+    "section4-title":"About us",
+    "section4-btn":"learn more",
+
+    "section5-title":"All our services",
+    "section5-card1-title":"Business automation",
+    "section5-btn":"learn more",
+
+    "section6-title":"Safe service",
+    "section6-subtitle1":"Protected from hacker attacks",
+    "section6-subtitle2":"Data Security",
+    "section6-subtitle3":"Reliable services",
+    "section6-btn":"Contact",
+
+    "section7-title":"Low prices",
+    "section7-subtitle1":"Easy top up",
+    "section7-subtitle4":"Regular promotions",
+    "section7-subtitle3":"Discounts",
+    "section7-btn":"Contact",
+
+    "section8-title":"Connect with us",
+    "section8-form-name":"First Name Last Name *",
+    "section8-form-tel":"Your phone number *",
+    "section8-form-xizmat":"Type of service *",
+    "section8-form-maqsad":"Your aim *",
+    "section8-btn":"Send",
+
+    "footer-mediya":"Follow us",
+    "footer-links":"Links",
+    "footer-link-home":"Home",
+    "footer-link-about":"About",
+    "footer-link-service":"Service",
+    "footer-link-contact":"Contact",
+    "footer-info":" Information",
+    "footer-location":"Gulistan City Youth Center Address: 6th block",
+
+
+    "page2-hero-title":"Our experienced staff",
+    "page2-hero-btn":"Contact",
+
+
+    "page3-hero-title":"Business automation",
+    "page3-hero-btn":"Connection",
+
+    "page3-hero-card1-title":"CRM sistem",
+    "page3-hero-card2-title":"WMS sistem",
+    "page3-hero-card3-title":"LMS sistem",
+    "page3-hero-card4-title":"HRM sistem",
+
+
+    "page4-hero-title":"CRM sistem",
+    "page4-hero-btn":"contact",
+    "page4-form-name":"Name of the organization *",
+    "page4-form-tel":"Phone number *",
+    "page4-form-maqsadi":"Briefly about the goal *",
+    "page4-form-ism":"First Name Last Name *",
+    "page4-form-crm":"Type of CRM *",
+    "page4-form-btn":"Send"
+}
