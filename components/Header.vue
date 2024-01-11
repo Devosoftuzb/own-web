@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-[#07081A] fixed z-10 w-full">
+  <header :class="{ 'bg-green-500': isScrolled }" class="bg-transparent fixed z-10 w-full">
     <div class="container mx-auto p-5 border-b">
       <nav class="hidden lg:flex w-full flex items-center justify-between">
         <div>
@@ -217,7 +217,7 @@
 </template>
   
   <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from 'vue';
 const lang = ref(false);
 const modallang = () => {
   if (bell.value) {
@@ -248,10 +248,24 @@ const modalmenu = () => {
     menu.value = !menu.value;
   }
 }
+
+onMounted(() => {
+  window.addEventListener("scroll", function(){
+    let header = document.querySelector("header");
+    let container = this.document.querySelector(".container");
+    header.classList.toggle("headerScroll", window.scrollY > 0)
+    container.classList.toggle("border-none", window.scrollY > 0)
+})
+
+});
 </script>
   
-  <style lang="scss" scoped>
+  <style lang="scss">
 .router-link-exact-active {
   color: #1976dc;
+}
+
+.headerScroll {
+  background: #07081A;
 }
 </style>

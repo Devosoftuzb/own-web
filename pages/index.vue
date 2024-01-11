@@ -28,12 +28,12 @@
       </div>
     </div>
     <img
-      class="absolute z-10 top-0 left-0 sm:w-[901.539px] w-[517.311px]"
+      class="absolute top-0 left-0 sm:w-[901.539px] w-[517.311px]"
       src="../public/home/home-blue-effekt.png"
       alt=""
     />
     <img
-      class="absolute z-10 right-0 top-20 sm:w-[901.539px] w-[395.15px]"
+      class="absolute right-0 top-20 sm:w-[901.539px] w-[395.15px]"
       src="../public/home/home-orange-effekt.png"
       alt=""
     />
@@ -42,24 +42,24 @@
   <section class="mt-28">
     <div class="container mx-auto p-5">
       <div class="flex flex-col gap-5">
-        <h2 class="text-white text-[45px] font-['Roboto'] font-semibold">
+        <h2 class="text-white text-[45px] font-['Roboto'] font-semibold mb-20">
           Bizning ustun taraflarimiz
         </h2>
-        <div>
-          <div>
-            <img src="../public/home/Quality.png" alt="" />
+        <div class="text-white text-[21px] font-['Roboto'] font-medium	flex gap-28 pb-10">
+          <div class="cart-1 relative bg-[#323459] w-[300px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5">
+            <img src="../public/home/Quality.png" width="70px" alt="" />
             <h3>Sifatli xizmatlar</h3>
           </div>
-          <div>
-            <img src="../public/home" alt="" />
+          <div class="cart-2 relative bg-[#323459] w-[300px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5">
+            <img src="../public/home/Security Shield.png" width="70px" alt="" />
             <h3>Xafsizlik tizimi</h3>
           </div>
-          <div>
-            <img src="" alt="" />
+          <div class="cart-3 relative bg-[#323459] w-[300px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5">
+            <img src="../public/home/Money Bag.png" width="70px" alt="" />
             <h3>Hamyonbob narx</h3>
           </div>
-          <div>
-            <img src="" alt="" />
+          <div class="cart-4 relative bg-[#323459] w-[300px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5">
+            <img src="../public/home/Quality.png" width="70px" alt="" />
             <h3>Sifatli xizmatlar</h3>
           </div>
         </div>
@@ -80,4 +80,95 @@
     ),
     #fff;
 }
+
+
+.cart-1::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-bottom: 5px solid #E76514;
+    border-left: 5px solid #E76514;
+    bottom: -20px;
+    left: -20px;
+}
+
+.cart-1::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-top: 5px solid #1976DC;
+    border-right: 5px solid #1976DC;
+    top: -20px;
+    right: -20px;
+}
+
+
+.cart-2::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-bottom: 5px solid #E76514;
+    border-left: 5px solid #E76514;
+    bottom: -20px;
+    left: -20px;
+}
+
+.cart-2::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-top: 5px solid #1976DC;
+    border-right: 5px solid #1976DC;
+    top: -20px;
+    right: -20px;
+}
+
+.cart-3::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-bottom: 5px solid #E76514;
+    border-left: 5px solid #E76514;
+    bottom: -20px;
+    left: -20px;
+}
+
+.cart-3::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-top: 5px solid #1976DC;
+    border-right: 5px solid #1976DC;
+    top: -20px;
+    right: -20px;
+}
+
+.cart-4::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-bottom: 5px solid #E76514;
+    border-left: 5px solid #E76514;
+    bottom: -20px;
+    left: -20px;
+}
+
+.cart-4::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-top: 5px solid #1976DC;
+    border-right: 5px solid #1976DC;
+    top: -20px;
+    right: -20px;
+}
+
 </style>
