@@ -15,13 +15,13 @@
               <NuxtLink to="/">Home</NuxtLink>
             </li>
             <li class="hover:font-bold">
-              <NuxtLink to="about">About</NuxtLink>
+              <NuxtLink to="/about">About</NuxtLink>
             </li>
             <li class="hover:font-bold">
-              <NuxtLink to="service">Service</NuxtLink>
+              <NuxtLink to="/service">Service</NuxtLink>
             </li>
             <li class="hover:font-bold">
-              <NuxtLink to="contact">Contact</NuxtLink>
+              <NuxtLink to="/contact">Contact</NuxtLink>
             </li>
             <li class="pl-5 border-l py-5">
               <div class="relative">
@@ -159,13 +159,13 @@
                 <NuxtLink to="/" @click="modalmenu">Home</NuxtLink>
               </li>
               <li class="hover:font-bold">
-                <NuxtLink to="about" @click="modalmenu">About</NuxtLink>
+                <NuxtLink to="/about" @click="modalmenu">About</NuxtLink>
               </li>
               <li class="hover:font-bold">
-                <NuxtLink to="service" @click="modalmenu">Service</NuxtLink>
+                <NuxtLink to="/service" @click="modalmenu">Service</NuxtLink>
               </li>
               <li class="hover:font-bold">
-                <NuxtLink to="contact" @click="modalmenu">Contact</NuxtLink>
+                <NuxtLink to="/contact" @click="modalmenu">Contact</NuxtLink>
               </li>
             </ul>
           </div>
