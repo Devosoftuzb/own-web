@@ -41,7 +41,7 @@
                 <div
                   :class="
                     lang
-                      ? 'absolute z-10 left-0 top-8 bg-[#323459] flex flex-col'
+                      ? 'absolute z-10 right-2 top-8 rounded-l-lg rounded-b-lg bg-[#323459] flex flex-col'
                       : 'hidden'
                   "
                 >
@@ -79,7 +79,7 @@
                 <div
                   :class="
                     bell
-                      ? 'absolute right-0 top-8 bg-[#323459] flex flex-col'
+                      ? 'absolute right-2 top-8 rounded-l-lg rounded-b-lg bg-[#323459] flex flex-col'
                       : 'hidden'
                   "
                 >
@@ -99,7 +99,7 @@
         </div>
       </nav>
 
-      <!-- response modile -->
+      <!-- response mobile start -->
 
       <nav class="lg:hidden relative w-full flex items-center justify-between">
         <div class="flex items-center justify-between w-full">
@@ -156,16 +156,16 @@
             </div>
             <ul :class="bell ? 'hidden' : 'flex flex-col items-center gap-8'">
               <li class="hover:font-bold">
-                <NuxtLink to="/">Home</NuxtLink>
+                <NuxtLink to="/" @click="modalmenu">Home</NuxtLink>
               </li>
               <li class="hover:font-bold">
-                <NuxtLink to="about">About</NuxtLink>
+                <NuxtLink to="about" @click="modalmenu">About</NuxtLink>
               </li>
               <li class="hover:font-bold">
-                <NuxtLink to="service">Service</NuxtLink>
+                <NuxtLink to="service" @click="modalmenu">Service</NuxtLink>
               </li>
               <li class="hover:font-bold">
-                <NuxtLink to="contact">Contact</NuxtLink>
+                <NuxtLink to="contact" @click="modalmenu">Contact</NuxtLink>
               </li>
             </ul>
           </div>
@@ -196,12 +196,12 @@
               "
             >
               <button
-                class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
+                @click="modallang" class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
               >
                 ENG
               </button>
               <button
-                class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
+                @click="modallang" class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
               >
                 RU
               </button>
@@ -209,6 +209,9 @@
           </div>
         </div>
       </nav>
+
+      <!-- response mobile end -->
+
     </div>
   </header>
 </template>
