@@ -1,5 +1,5 @@
 <template>
-  <header :class="{ 'bg-green-500': isScrolled }" class="bg-transparent fixed z-10 w-full">
+  <header class="bg-transparent fixed top-0 z-10 w-full">
     <div class="container mx-auto p-5 border-b">
       <nav class="hidden lg:flex w-full flex items-center justify-between">
         <div>
