@@ -217,7 +217,7 @@
 <style>
     .st__hero{
         position: relative;
-        margin-top: 150px;
+        padding-top: 150px;
         padding-bottom: 180px;
     }
     .container{
@@ -385,6 +385,7 @@
         gap: 30px;
     }
     .team__card:hover .over__bg {
+
         color: #6D6D6D;
         display: block;
         display: block;
@@ -393,6 +394,20 @@
         gap: 10px;
         left: 0px;
         } 
+
+        
+        
+        .team__card:hover .icon__wrapper{
+            display: block;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            left: 0px;
+        }
+
+        
+    
+
     .over__bg{
         
         position: absolute;
