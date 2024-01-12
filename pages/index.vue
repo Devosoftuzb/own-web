@@ -1,5 +1,5 @@
 <template>
-  <section class="lg:min-h-screen lg:mt-0 mt-32 flex items-center">
+  <section class="lg:mt-60 mt-32 flex items-center">
     <div class="container mx-auto p-5">
       <div class="flex flex-col sm:items-center gap-5">
         <h1
@@ -16,7 +16,7 @@
         <button
           class="sm:flex hidden btn text-white font-['Roboto'] font-medium text-[21px] px-3 py-1 rounded-[5px]"
         >
-          Bog’lanish
+          <a href="tel:+998 90 555 55 56">Bog’lanish</a>
         </button>
         <a
           href="tel:+998 90 555 55 56"
@@ -106,7 +106,11 @@
         </div>
       </div>
     </div>
-    <img class="absolute top-0 left-0 " src="../public/about_img/about__hero__bg.png" alt="">
+    <img
+      class="absolute top-0 left-0"
+      src="../public/about_img/about__hero__bg.png"
+      alt=""
+    />
   </section>
 
   <section class="relative mt-20">
@@ -137,21 +141,80 @@
             survived not only five
           </p>
 
-          <p
-            class="lg:hidden text-[#6D6D6D] font-['Poppins'] font-light"
-          >
+          <p class="lg:hidden text-[#6D6D6D] font-['Poppins'] font-light">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the
           </p>
-          <img class="lg:hidden mb-3" src="../public/about_img/about__hero_mobile.png" alt="">
-          <button class="btn sm:w-[167px] w-[121px] sm:py-3 py-2 rounded-lg text-white">
+          <img
+            class="lg:hidden mb-3"
+            src="../public/about_img/about__hero_mobile.png"
+            alt=""
+          />
+          <button
+            class="btn sm:w-[167px] w-[121px] sm:py-3 py-2 rounded-lg text-white"
+          >
             <nuxt-link to="/about">Ko'proq bilish</nuxt-link>
           </button>
         </div>
       </div>
     </div>
-    <img class="absolute top-0 right-0" src="../public/about_img/about__hero__bg2.png" alt="">
+    <img
+      class="absolute top-0 right-0"
+      src="../public/about_img/about__hero__bg2.png"
+      alt=""
+    />
+  </section>
+
+  <section class="mt-20">
+    <div class="container mx-auto p-5">
+      <div class="flex flex-col gap-16">
+        <h2 class="text-white text-[45px] font-['Roboto'] font-bold">
+          Bizning barcha xizmatlar
+        </h2>
+        <div class="flex flex-wrap justify-between gap-10">
+          <div class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg">
+            <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
+              Biznesni avtomatlashtirish
+            </h3>
+            <p class="text-white font-['Poppins'] font-light">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an
+            </p>
+            <button class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5">
+              <nuxt-link to="/service">Ko'proq</nuxt-link>
+            </button>
+          </div>
+          <div class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg">
+            <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
+              Biznesni avtomatlashtirish
+            </h3>
+            <p class="text-white font-['Poppins'] font-light">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an
+            </p>
+            <button class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5">
+              <nuxt-link to="/service">Ko'proq</nuxt-link>
+            </button>
+          </div>
+          <div class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg">
+            <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
+              Biznesni avtomatlashtirish
+            </h3>
+            <p class="text-white font-['Poppins'] font-light">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an
+            </p>
+            <button class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5">
+              <nuxt-link to="/service">Ko'proq</nuxt-link>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
