@@ -168,12 +168,16 @@
 
   <section class="mt-20">
     <div class="container mx-auto p-5">
-      <div class="flex flex-col gap-16">
-        <h2 class="text-white text-[45px] font-['Roboto'] font-bold">
+      <div class="flex flex-col sm:gap-16 gap-10">
+        <h2
+          class="text-white sm:text-[45px] text-[26px] font-['Roboto'] font-bold"
+        >
           Bizning barcha xizmatlar
         </h2>
         <div class="flex flex-wrap justify-between gap-10">
-          <div class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg">
+          <div
+            class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
+          >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               Biznesni avtomatlashtirish
             </h3>
@@ -182,11 +186,25 @@
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an
             </p>
-            <button class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5">
-              <nuxt-link to="/service">Ko'proq</nuxt-link>
-            </button>
+            <div class="flex items-center justify-between mt-5">
+              <button
+                class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium"
+              >
+                <nuxt-link to="/service">Ko'proq</nuxt-link>
+              </button>
+              <button
+                @click="modalmore"
+                class="sm:hidden text-[#1976DC] text-[40px]"
+              >
+                <i :class="more ? 'bx bx-chevron-up' : 'bx bx-chevron-down'">
+                </i>
+              </button>
+            </div>
           </div>
-          <div class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg">
+
+          <div
+            class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
+          >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               Biznesni avtomatlashtirish
             </h3>
@@ -195,11 +213,25 @@
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an
             </p>
-            <button class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5">
-              <nuxt-link to="/service">Ko'proq</nuxt-link>
-            </button>
+            <div class="flex items-center justify-between mt-5">
+              <button
+                class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium"
+              >
+                <nuxt-link to="/service">Ko'proq</nuxt-link>
+              </button>
+              <button
+                @click="modalmore"
+                class="sm:hidden text-[#1976DC] text-[40px]"
+              >
+                <i :class="more ? 'bx bx-chevron-up' : 'bx bx-chevron-down'">
+                </i>
+              </button>
+            </div>
           </div>
-          <div class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg">
+
+          <div
+            class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
+          >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               Biznesni avtomatlashtirish
             </h3>
@@ -208,9 +240,20 @@
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an
             </p>
-            <button class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5">
-              <nuxt-link to="/service">Ko'proq</nuxt-link>
-            </button>
+            <div class="flex items-center justify-between mt-5">
+              <button
+                class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium"
+              >
+                <nuxt-link to="/service">Ko'proq</nuxt-link>
+              </button>
+              <button
+                @click="modalmore"
+                class="sm:hidden text-[#1976DC] text-[40px]"
+              >
+                <i :class="more ? 'bx bx-chevron-up' : 'bx bx-chevron-down'">
+                </i>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -219,6 +262,9 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
+const more = ref(false);
+const modalmore = () => (more.value = !more.value);
 </script>
 
 <style lang="scss" scoped>
