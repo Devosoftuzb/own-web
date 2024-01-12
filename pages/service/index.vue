@@ -203,21 +203,21 @@
             /* z-index: 2; */
             z-index: 9;
             width: 502px;
+            cursor: pointer;
         }
         .sr__hero__card__img{
             position: absolute;
             width: 700px;
             height: 400px;
             top: -120px;
-            left: -10px;
+            left: 20px;
             z-index: 1;
             display: none;
         }
-        .sr__hero__card:hover{
-            cursor: pointer
-            /* .sr__hero__card__img{
-                display: block;
-            } */
+        .sr__hero__card:hover .sr__hero__card__img{
+            cursor: pointer;
+            display: block;
+            
         }
         .sr__hero__wrapper{
             margin-top: 200px;
@@ -226,8 +226,9 @@
             align-items: center;
             justify-content: center;
             gap: 75px;
-            margin-left:50px ;
+            margin-left:140px ;
             position: relative;
+
             z-index: 9;
             
         }
@@ -235,7 +236,7 @@
             position: absolute;
             bottom: -500px;
             left: -50px;
-            z-index: 1;
+            z-index: -1;
         }
         @media(max-width:580px){
             .sr__hero__wrapper{
