@@ -2,13 +2,13 @@
   <footer class="relative bg-[#07081A] sm:pb-20">
     <img
       class="md:block hidden absolute 2xl:left-[400px] lg:left-[200px] bottom-0"
-      src="../public/footer/footer.png"
+      src="/footer/footer.png"
       alt=""
     />
     <div class="container mx-auto p-5 lg:border-t">
       <div class="flex md:flex-row flex-col justify-between">
         <div class="md:block hidden flex flex-col gap-4">
-          <img src="../public/Logo.png" alt="Logo team" />
+          <img src="/Logo.png" alt="Logo team" />
           <h3 class="text-white text-[26px] font-['Roboto'] ml-[40px] font-semibold">
             Folow us on
           </h3>
@@ -77,7 +77,7 @@
         <div class="sm:hidden flex items-center justify-between mt-10">
           <h3 class="text-[21px] font-['Roboto'] font-semibold text-white">2024 DevoSoft IT group</h3>
           <NuxtLink to="/">
-            <img src="../public/Logo.png" alt="" width="150px" height="50px" />
+            <img src="/Logo.png" alt="" width="150px" height="50px" />
           </NuxtLink>
         </div>
       </div>

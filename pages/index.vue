@@ -29,12 +29,12 @@
     </div>
     <img
       class="absolute top-0 left-0"
-      src="../public/home/home-blue-effekt.png"
+      src="/home/home-blue-effekt.png"
       alt=""
     />
     <img
       class="absolute right-0 top-20"
-      src="../public/home/home-orange-effekt.png"
+      src="/home/home-orange-effekt.png"
       alt=""
     />
   </section>
@@ -53,25 +53,25 @@
           <div
             class="cart-1 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5"
           >
-            <img src="../public/home/Quality.png" width="70px" alt="" />
+            <img src="/home/Quality.png" width="70px" alt="" />
             <h3>Sifatli xizmatlar</h3>
           </div>
           <div
             class="cart-2 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5"
           >
-            <img src="../public/home/Security Shield.png" width="70px" alt="" />
+            <img src="/home/Security Shield.png" width="70px" alt="" />
             <h3>Xafsizlik tizimi</h3>
           </div>
           <div
             class="cart-3 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5"
           >
-            <img src="../public/home/Money Bag.png" width="70px" alt="" />
+            <img src="/home/Money Bag.png" width="70px" alt="" />
             <h3>Hamyonbob narx</h3>
           </div>
           <div
             class="cart-4 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5"
           >
-            <img src="../public/home/Quality.png" width="70px" alt="" />
+            <img src="/home/Quality.png" width="70px" alt="" />
             <h3>Sifatli xizmatlar</h3>
           </div>
         </div>
@@ -82,25 +82,25 @@
           <div
             class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5"
           >
-            <img src="../public/home/Quality.png" width="50px" alt="" />
+            <img src="/home/Quality.png" width="50px" alt="" />
             <h3>Sifatli xizmatlar</h3>
           </div>
           <div
             class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5"
           >
-            <img src="../public/home/Security Shield.png" width="50px" alt="" />
+            <img src="/home/Security Shield.png" width="50px" alt="" />
             <h3>Xafsizlik tizimi</h3>
           </div>
           <div
             class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5"
           >
-            <img src="../public/home/Money Bag.png" width="50px" alt="" />
+            <img src="/home/Money Bag.png" width="50px" alt="" />
             <h3>Hamyonbob narx</h3>
           </div>
           <div
             class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5"
           >
-            <img src="../public/home/Quality.png" width="50px" alt="" />
+            <img src="/home/Quality.png" width="50px" alt="" />
             <h3>Sifatli xizmatlar</h3>
           </div>
         </div>
@@ -108,7 +108,7 @@
     </div>
     <img
       class="absolute top-0 left-0"
-      src="../public/about_img/about__hero__bg.png"
+      src="/about_img/about__hero__bg.png"
       alt=""
     />
   </section>
@@ -117,8 +117,8 @@
     <div class="container mx-auto p-5">
       <div class="flex justify-between items-center z-10">
         <div class="lg:flex hidden flex-col items-center">
-          <img src="../public/about_img/about__hero.png" alt="" />
-          <img src="../public/about_img/about__hero_ten.png" alt="" />
+          <img src="/about_img/about__hero.png" alt="" />
+          <img src="/about_img/about__hero_ten.png" alt="" />
         </div>
 
         <div class="flex flex-col gap-5">
@@ -148,7 +148,7 @@
           </p>
           <img
             class="lg:hidden mb-3"
-            src="../public/about_img/about__hero_mobile.png"
+            src="/about_img/about__hero_mobile.png"
             alt=""
           />
           <button
@@ -161,7 +161,7 @@
     </div>
     <img
       class="absolute top-0 right-0"
-      src="../public/about_img/about__hero__bg2.png"
+      src="/about_img/about__hero__bg2.png"
       alt=""
     />
   </section>

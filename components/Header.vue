@@ -4,7 +4,7 @@
       <nav class="hidden lg:flex w-full flex items-center justify-between">
         <div>
           <NuxtLink to="/">
-            <img src="../public/Logo.png" alt="" />
+            <img src="/Logo.png" alt="" />
           </NuxtLink>
         </div>
         <div>
@@ -173,7 +173,7 @@
           <div>
             <NuxtLink to="/">
               <img
-                src="../public/Logo.png"
+                src="/Logo.png"
                 alt=""
                 width="150px"
                 height="50px"
