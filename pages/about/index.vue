@@ -15,9 +15,9 @@
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
                     </p>
                     <img class="st__mobile__foto" src="/about_img/about__hero_mobile.png" alt="foto">
-                    <button>
+                    <!-- <button>
                         Ko’proq bilish
-                    </button>
+                    </button> -->
                 </div>
             </div>
             <img class="about__hero__img" src="/about_img/about__hero__bg.png" alt="foto">
@@ -41,14 +41,12 @@
             <div class="team__wrapper">
                 <div class="team__card">
                     <div class="over__bg">
-                        
+                        <div class="icon__wrapper">
+                        <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Instagram.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/LinkedIn.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Telegram.png" alt="icon"></a>
                     </div>
-                    <div class="icon__wrapper">
-                        <a href="!#"><img src="//about_img/YouTube.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Instagram.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/LinkedIn.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Telegram.png" alt="icon"></a>
-                        
                     </div>
                     <div class="taem__card__content">
                         <h2>
@@ -61,14 +59,12 @@
                 </div>
                 <div class="team__card">
                     <div class="over__bg">
-
+                        <div class="icon__wrapper">
+                        <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Instagram.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/LinkedIn.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Telegram.png" alt="icon"></a>
                     </div>
-                    <div class="icon__wrapper">
-                        <a href="!#"><img src="//about_img/YouTube.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Instagram.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/LinkedIn.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Telegram.png" alt="icon"></a>
-                        
                     </div>
                     <div class="taem__card__content">
                         <h2>
@@ -81,14 +77,12 @@
                 </div>
                 <div class="team__card">
                     <div class="over__bg">
-
+                        <div class="icon__wrapper">
+                        <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Instagram.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/LinkedIn.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Telegram.png" alt="icon"></a>
                     </div>
-                    <div class="icon__wrapper">
-                        <a href="!#"><img src="//about_img/YouTube.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Instagram.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/LinkedIn.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Telegram.png" alt="icon"></a>
-                        
                     </div>
                     <div class="taem__card__content">
                         <h2>
@@ -101,14 +95,12 @@
                 </div>
                 <div class="team__card">
                     <div class="over__bg">
-
+                        <div class="icon__wrapper">
+                        <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Instagram.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/LinkedIn.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Telegram.png" alt="icon"></a>
                     </div>
-                    <div class="icon__wrapper">
-                        <a href="!#"><img src="//about_img/YouTube.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Instagram.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/LinkedIn.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Telegram.png" alt="icon"></a>
-                        
                     </div>
                     <div class="taem__card__content">
                         <h2>
@@ -121,14 +113,12 @@
                 </div>
                 <div class="team__card">
                     <div class="over__bg">
-
+                        <div class="icon__wrapper">
+                        <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Instagram.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/LinkedIn.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Telegram.png" alt="icon"></a>
                     </div>
-                    <div class="icon__wrapper">
-                        <a href="!#"><img src="//about_img/YouTube.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Instagram.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/LinkedIn.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Telegram.png" alt="icon"></a>
-                        
                     </div>
                     <div class="taem__card__content">
                         <h2>
@@ -141,14 +131,12 @@
                 </div>
                 <div class="team__card">
                     <div class="over__bg">
-
+                        <div class="icon__wrapper">
+                        <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Instagram.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/LinkedIn.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Telegram.png" alt="icon"></a>
                     </div>
-                    <div class="icon__wrapper">
-                        <a href="!#"><img src="//about_img/YouTube.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Instagram.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/LinkedIn.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Telegram.png" alt="icon"></a>
-                        
                     </div>
                     <div class="taem__card__content">
                         <h2>
@@ -161,14 +149,12 @@
                 </div>
                 <div class="team__card">
                     <div class="over__bg">
-
+                        <div class="icon__wrapper">
+                        <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Instagram.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/LinkedIn.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Telegram.png" alt="icon"></a>
                     </div>
-                    <div class="icon__wrapper">
-                        <a href="!#"><img src="//about_img/YouTube.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Instagram.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/LinkedIn.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Telegram.png" alt="icon"></a>
-                        
                     </div>
                     <div class="taem__card__content">
                         <h2>
@@ -181,15 +167,14 @@
                 </div>
                 <div class="team__card">
                     <div class="over__bg">
-
+                        <div class="icon__wrapper">
+                        <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Instagram.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/LinkedIn.png" alt="icon"></a>
+                        <a href="!#"><img src="/about_img/Telegram.png" alt="icon"></a>
                     </div>
-                    <div class="icon__wrapper">
-                        <a href="!#"><img src="//about_img/YouTube.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Instagram.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/LinkedIn.png" alt="icon"></a>
-                        <a href="!#"><img src="//about_img/Telegram.png" alt="icon"></a>
-                        
                     </div>
+                   
                     <div class="taem__card__content">
                         <h2>
                             Anvar Rahimov
@@ -399,22 +384,17 @@
         grid-template-columns: repeat(4,1fr);
         gap: 30px;
     }
-    .team__card:hover{
+    .team__card:hover .over__bg {
         color: #6D6D6D;
-        
-        /* .over__bg{
-            display: block;
-        } */
-
-        /* .icon__wrapper{
-            display: block;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            left: 0px;
-        } */
-    }
+        display: block;
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        left: 0px;
+        } 
     .over__bg{
+        
         position: absolute;
         background: rgba(0, 0, 0, 0.80);
         top: 0;
@@ -425,16 +405,18 @@
     }
     .team__card{
         position: relative;
+        z-index: 9;
     }
     .icon__wrapper{
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        gap: 20px;
         position: absolute;
         top: 180px;
+        margin-right: 40px;
         right: 5px;
-        display: none;
+        /* display: none; */
     
     }
     @media(max-width:580px){
@@ -582,6 +564,11 @@
         z-index: -1;
     }
     @media(max-width:580px){
+        
+        .form2{
+            margin: 0 auto;
+            width: 480px;
+        }
         .form__img{
             display: none;
         }
@@ -597,6 +584,16 @@
         }
         .form__bg2{
             right: -10px;
+        }
+    }
+    @media(max-width:480px){
+        .form2{
+            width: 380px;
+        }
+    }
+    @media(max-width:380px){
+        .form2{
+            width: 280px;
         }
     }
     @media(max-width:700px){
