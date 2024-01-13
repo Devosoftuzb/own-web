@@ -226,7 +226,7 @@
           <img class="ximoya-img-1" src="/home/ximoya-img.png" alt="foto">
           <img src="/about_img/form__ten.png" alt="foto">
         </div>
-        <div class="ximoya__content">
+        <div class="ximoya__content m-5">
             <h2>
               Xavsiz servis
             </h2>
@@ -258,7 +258,7 @@
   <section class="narx">
       <div class="container">
         <div id="narx__wrapper" class="narx__wrapper">
-          <div class="narx__content">
+          <div class="narx__content m-5">
               <h2>
                   Arzon Narxlar
               </h2>

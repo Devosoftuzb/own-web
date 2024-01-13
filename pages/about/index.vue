@@ -26,16 +26,16 @@
     </section> 
     <section class="about__team">
         <div class="container">
-            <h1>
+            <h1 class="sm:text-[54px] text-[25px] sm:text-center text-start ml-5">
                 Bizning tajribali hodimlar
             </h1>
-            <p class="team__p">
+            <p class="team__p sm:text-center text-start sm:ml-0 ml-5">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
             </p>
             <button class="team__btn1">
                 Bog’lanish
             </button>
-            <button id="team__btn">
+            <button id="team__btn" class="sm:ml-0 ml-5 mt-20">
                <img src="/about_img/Phone.png" alt="icon"> qo’ng’iroq qilish
             </button>
             <div class="team__wrapper">
@@ -284,10 +284,8 @@
     /* section 2 start  */
     
     .about__team h1{
-        text-align: center;
         margin-bottom: 40px;
         color: #FFF;
-        font-size: 54px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -297,9 +295,7 @@
         height: 42px;
         flex-shrink: 0;
         color: var(--body-text-color, #C9C9C9);
-        text-align: center;
         /* size - 18px */
-        margin: 0 auto;
         font-size: 18px;
         font-style: normal;
         font-weight: 300;
@@ -316,10 +312,8 @@
         font-style: normal;
         font-weight: 300;
         line-height: normal;
-        margin: 0 auto;
         text-align: center;
         /* display: block; */
-        margin-top: 40px;
         gap: 10px;
         padding: 5px;
         display: flex;
@@ -420,7 +414,7 @@
     }
     .team__card{
         position: relative;
-        z-index: 9;
+        z-index: 10;
     }
     .icon__wrapper{
         display: flex;
@@ -570,13 +564,12 @@
         position: absolute;
         bottom: 0;
         left: -50px;
-        z-index: -1;
+        
     }
     .form__bg2{
         position: absolute;
         bottom: -90px;
         right:-30px;
-        z-index: -1;
     }
     @media(max-width:580px){
         

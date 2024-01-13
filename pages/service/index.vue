@@ -1,10 +1,10 @@
 <template>
-    <section class="service__hero">
+    <section class="service__hero m-5">
         <div class="container">  
             <img class="sr__hero__bg1" src="/service/sr__hero__bg.png" alt="foto">
             <img class="sr__hero__bg2" src="/service/sr__hero__bg2.png" alt="foto">
             <h1>
-                Biznesni avtomaylashtirish 
+                Biznesni avtomatlashtirish 
             </h1>
             <p class="sr__hero_p">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
