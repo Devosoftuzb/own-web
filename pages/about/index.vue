@@ -573,10 +573,9 @@
     }
     .form__bg2{
         position: absolute;
-        bottom: -90px;
+        bottom: -490px;
         right:0px;
         z-index: -1;
-        right:-30px;
     }
     /* .bg12{
         position: absolute;

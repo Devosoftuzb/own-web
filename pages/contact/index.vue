@@ -36,4 +36,10 @@
     .mr__tp{
         margin-bottom: 300px;
     }
+    .form2{
+        position: relative;
+        z-index: 5;
+    }
+    
+
 </style>

@@ -16,7 +16,7 @@
                 <img src="/about_img/Phone.png" alt="foto">qo’ng’iroq qilish
             </button>
             <div class="sr__hero__wrapper">
-                <div class="sr__hero__card">
+                <NuxtLink to="/service/1" class="sr__hero__card">
                     <img class="sr__hero__card__img" src="/service/sr__hero__card.png" alt="foto">
                     <div class="sr__hero__card__contetn">
                             <h3>
@@ -26,7 +26,7 @@
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                             </p>
                     </div>
-                </div>
+                </NuxtLink>
                 <div class="sr__hero__card">
                     <img class="sr__hero__card__img" src="/service/sr__hero__card.png" alt="foto">
                     <div class="sr__hero__card__contetn">

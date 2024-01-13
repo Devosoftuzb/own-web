@@ -211,7 +211,7 @@
             <button
               class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5"
             >
-              <nuxt-link to="/service">Ko'proq</nuxt-link>
+              <nuxt-link to="/service/1">Ko'proq</nuxt-link>
             </button>
           </div>
           <div
