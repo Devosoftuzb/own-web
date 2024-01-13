@@ -129,7 +129,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="team__card">
+                <div id="card__tr" class="team__card">
                     <div class="over__bg">
                         <div class="icon__wrapper">
                         <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
@@ -189,17 +189,21 @@
     </section>
     <section class="form">
         <div class="container">
-            <img class="form__bg1" src="/about_img/about__hero__bg.png" alt="foto">
+            <img  id="bg12" class="form__bg1" src="/about_img/about__hero__bg.png" alt="foto">
+            
             <img class="form__bg2" src="/about_img/about__hero__bg2.png" alt="foto">
             <div class="form__wrapper">
                 <form class="form2">
                     <span     id="form__h1" >
                         Biz bilan bog’lanish
                     </span>
-                    <input style="" id="form__inp" type="text" placeholder="Ism familya *">
-                    <input type="text" placeholder="Telefon raqamingiz *">
-                    <input type="text" placeholder="Xizmat turi * " >
-                    <input type="text" placeholder="Maqsadingiz *">
+                    <input required style="" id="form__inp" type="text" placeholder="Ism familya *">
+                    <input required type="text" placeholder="Telefon raqamingiz *">
+                    <input required type="text" placeholder="Xizmat turi * " >
+                    <input required type="text" placeholder="Maqsadingiz *">
+                    <button required class="form__btn" type="submit">
+                        Yuborish
+                    </button>
                 </form>
                 <div class="form__img">
                     <img src="/about_img/form__img1.png" alt="foto">
@@ -423,7 +427,7 @@
         gap: 20px;
         position: absolute;
         top: 180px;
-        margin-right: 40px;
+        margin-left: 20px;
         right: 5px;
         /* display: none; */
     
@@ -522,7 +526,7 @@
      /* form section  */
     .form{
         position: relative;
-        z-index: 9;
+        z-index: 0;
         margin-bottom: 150px;
     }
      #form__h1{
@@ -563,16 +567,29 @@
     .form__bg1{
         position: absolute;
         bottom: 0;
+        left: 0;
+        z-index: 0;
         left: -50px;
-        
     }
     .form__bg2{
         position: absolute;
         bottom: -90px;
+        right:0px;
+        z-index: -1;
         right:-30px;
     }
+    /* .bg12{
+        position: absolute;
+        z-index: 0;
+    } */
+    #card__tr{
+        position: relative;
+        z-index: 5;
+    }
     @media(max-width:580px){
-        
+        .st__hero__content h1{
+            font-size: 31px;
+        }
         .form2{
             margin: 0 auto;
             width: 480px;
@@ -618,5 +635,19 @@
         .form2{
             padding: 10px;
         }
+    }
+    .form__btn{
+        display: inline-flex;
+        padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 5px;
+        background: linear-gradient(96deg, rgba(25, 118, 220, 0.95) 19%, rgba(231, 101, 20, 0.95) 88.27%), #FFF; 
+        color: #FFF;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;   
     }
 </style>
