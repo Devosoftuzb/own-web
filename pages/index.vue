@@ -2,101 +2,150 @@
   <section class="sm:mt-60 mt-32 flex items-center">
     <div class="container mx-auto p-5">
       <div class="flex flex-col sm:items-center gap-5">
-        <h1 data-aos="zoom-in" data-aos-duration="2000"
-          class="text-white lg:text-[65px] sm:text-[40px] text-[26px] font-['Roboto'] font-bold">
+        <h1
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+          class="text-white lg:text-[65px] sm:text-[40px] text-[26px] font-['Roboto'] font-bold"
+        >
           DevoSoft - vaqtni qadirlovchilar uchun
         </h1>
         <p
-          class="text-[#C9C9C9] lg:w-[622px] sm:w-[600px] pr-5 sm:text-[18px] text-[14px] sm:text-center font-['Poppins'] font-light">
+          class="text-[#C9C9C9] lg:w-[622px] sm:w-[600px] pr-5 sm:text-[18px] text-[14px] sm:text-center font-['Poppins'] font-light"
+        >
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy
         </p>
-        <button data-aos="fade-up" data-aos-duration="2000"
-          class="sm:flex hidden btn text-white font-['Roboto'] font-medium text-[21px] px-3 py-1 rounded-[5px]">
+        <button
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          class="sm:flex hidden btn text-white font-['Roboto'] font-medium text-[21px] px-3 py-1 rounded-[5px]"
+        >
           <a href="tel:+998 90 555 55 56">Bog’lanish</a>
         </button>
-        <a href="tel:+998 90 555 55 56"
-          class="sm:hidden flex items-center gap-3 text-white border-2 border-[#1976DC] rounded-md w-[198px] font-light font-['Poppins'] px-2 py-1">
+        <a
+          href="tel:+998 90 555 55 56"
+          class="sm:hidden flex items-center gap-3 text-white border-2 border-[#1976DC] rounded-md w-[198px] font-light font-['Poppins'] px-2 py-1"
+        >
           <i class="bx bx-phone-call text-[#1976DC] text-[24px]"></i>
           qo’ng’iroq qilish
         </a>
       </div>
     </div>
-    <img class="absolute top-0 left-0" src="/home/home-blue-effekt.png" alt="" />
-    <img class="absolute right-0 top-20" src="/home/home-orange-effekt.png" alt="" />
+    <img
+      class="absolute top-0 left-0"
+      src="/home/home-blue-effekt.png"
+      alt=""
+    />
+    <img
+      class="absolute right-0 top-20"
+      src="/home/home-orange-effekt.png"
+      alt=""
+    />
   </section>
 
   <section class="relative mt-28">
     <div class="container mx-auto p-5">
       <div class="flex flex-col gap-5">
-        <h2 data-aos="fade-down" data-aos-duration="3000"
-          class="text-white lg:text-[45px] sm:text-[40px] text-[26px] font-['Roboto'] font-semibold sm:mb-20 mb-5">
+        <h2
+          data-aos="fade-down"
+          data-aos-duration="3000"
+          class="text-white lg:text-[45px] sm:text-[40px] text-[26px] font-['Roboto'] font-semibold sm:mb-20 mb-5"
+        >
           Bizning ustun taraflarimiz
         </h2>
-        <div data-aos="fade-up" data-aos-duration="3000"
-          class="lg:flex hidden text-white text-[21px] font-['Roboto'] font-medium flex justify-between gap-28 p-10 overflow-x-auto self-stretch">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          class="lg:flex hidden text-white text-[21px] font-['Roboto'] font-medium flex justify-between gap-28 p-10 overflow-x-auto self-stretch"
+        >
           <div
-            class="cart-1 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5">
+            class="cart-1 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5"
+          >
             <img src="/home/Quality.png" width="70px" alt="" />
             <h3>Sifatli xizmatlar</h3>
           </div>
           <div
-            class="cart-2 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5">
+            class="cart-2 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5"
+          >
             <img src="/home/Security Shield.png" width="70px" alt="" />
             <h3>Xafsizlik tizimi</h3>
           </div>
           <div
-            class="cart-3 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5">
+            class="cart-3 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5"
+          >
             <img src="/home/Money Bag.png" width="70px" alt="" />
             <h3>Hamyonbob narx</h3>
           </div>
           <div
-            class="cart-4 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5">
+            class="cart-4 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5"
+          >
             <img src="/home/Quality.png" width="70px" alt="" />
             <h3>Sifatli xizmatlar</h3>
           </div>
         </div>
 
-        <div class="lg:hidden text-white text-[21px] font-['Roboto'] font-medium flex flex-wrap justify-between gap-5">
+        <div
+          class="lg:hidden text-white text-[21px] font-['Roboto'] font-medium flex flex-wrap justify-between gap-5"
+        >
           <div
-            class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5">
+            class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5"
+          >
             <img src="/home/Quality.png" width="50px" alt="" />
             <h3>Sifatli xizmatlar</h3>
           </div>
           <div
-            class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5">
+            class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5"
+          >
             <img src="/home/Security Shield.png" width="50px" alt="" />
             <h3>Xafsizlik tizimi</h3>
           </div>
           <div
-            class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5">
+            class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5"
+          >
             <img src="/home/Money Bag.png" width="50px" alt="" />
             <h3>Hamyonbob narx</h3>
           </div>
           <div
-            class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5">
+            class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5"
+          >
             <img src="/home/Quality.png" width="50px" alt="" />
             <h3>Sifatli xizmatlar</h3>
           </div>
         </div>
       </div>
     </div>
-    <img class="absolute top-0 left-0" src="/about_img/about__hero__bg.png" alt="" />
+    <img
+      class="absolute top-0 left-0"
+      src="/about_img/about__hero__bg.png"
+      alt=""
+    />
   </section>
 
   <section class="relative mt-20">
     <div class="container mx-auto p-5">
       <div class="flex justify-between items-center z-10">
-        <div data-aos="fade-right" data-aos-duration="3000" class="lg:flex hidden flex-col items-center">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          class="lg:flex hidden flex-col items-center"
+        >
           <img src="/about_img/about__hero.png" alt="" />
           <img src="/about_img/about__hero_ten.png" alt="" />
         </div>
 
-        <div data-aos="fade-left" data-aos-duration="3000" class="flex flex-col gap-5">
-          <h3 class="text-white lg:text-[45px] sm:text-[37px] text-[26px] font-['Roboto'] font-bold">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          class="flex flex-col gap-5"
+        >
+          <h3
+            class="text-white lg:text-[45px] sm:text-[37px] text-[26px] font-['Roboto'] font-bold"
+          >
             Biz haqimizda
           </h3>
-          <p class="lg:block hidden text-[#6D6D6D] font-['Poppins'] font-light w-[521px] mb-10">
+          <p
+            class="lg:block hidden text-[#6D6D6D] font-['Poppins'] font-light w-[521px] mb-10"
+          >
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -113,24 +162,44 @@
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the
           </p>
-          <img class="lg:hidden mb-3" src="/about_img/about__hero_mobile.png" alt="" />
-          <button class="btn sm:w-[167px] w-[121px] sm:py-3 py-2 rounded-lg text-white">
+          <img
+            class="lg:hidden mb-3"
+            src="/about_img/about__hero_mobile.png"
+            alt=""
+          />
+          <button
+            class="btn sm:w-[167px] w-[121px] sm:py-3 py-2 rounded-lg text-white"
+          >
             <nuxt-link to="/about">Ko'proq bilish</nuxt-link>
           </button>
         </div>
       </div>
     </div>
-    <img class="absolute top-0 right-0" src="/about_img/about__hero__bg2.png" alt="" />
+    <img
+      class="absolute top-0 right-0"
+      src="/about_img/about__hero__bg2.png"
+      alt=""
+    />
   </section>
 
   <section class="mt-20">
     <div class="container mx-auto p-5">
       <div class="flex flex-col gap-16">
-        <h2 data-aos="fade-down" data-aos-duration="3000" class="text-white text-[45px] font-['Roboto'] font-bold">
+        <h2
+          data-aos="fade-down"
+          data-aos-duration="3000"
+          class="text-white text-[45px] font-['Roboto'] font-bold"
+        >
           Bizning barcha xizmatlar
         </h2>
-        <div data-aos="fade-up" data-aos-duration="3000" class="flex flex-wrap justify-between gap-10">
-          <div class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          class="flex flex-wrap justify-between gap-10"
+        >
+          <div
+            class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
+          >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               Biznesni avtomatlashtirish
             </h3>
@@ -139,11 +208,15 @@
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an
             </p>
-            <button class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5">
+            <button
+              class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5"
+            >
               <nuxt-link to="/service">Ko'proq</nuxt-link>
             </button>
           </div>
-          <div class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg">
+          <div
+            class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
+          >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               Biznesni avtomatlashtirish
             </h3>
@@ -152,11 +225,15 @@
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an
             </p>
-            <button class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5">
+            <button
+              class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5"
+            >
               <nuxt-link to="/service">Ko'proq</nuxt-link>
             </button>
           </div>
-          <div class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg">
+          <div
+            class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
+          >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               Biznesni avtomatlashtirish
             </h3>
@@ -165,7 +242,9 @@
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an
             </p>
-            <button class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5">
+            <button
+              class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5"
+            >
               <nuxt-link to="/service">Ko'proq</nuxt-link>
             </button>
           </div>
@@ -183,7 +262,11 @@
           <img class="ximoya-img-1" src="/home/ximoya-img.png" alt="foto" />
           <img src="/about_img/form__ten.png" alt="foto" />
         </div>
-        <div data-aos="fade-left" data-aos-duration="3000" class="ximoya__content m-5">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          class="ximoya__content m-5"
+        >
           <h2>Xavsiz servis</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -214,7 +297,12 @@
 
   <section class="narx">
     <div class="container">
-      <div data-aos="flip-up" data-aos-duration="3000" id="narx__wrapper" class="narx__wrapper">
+      <div
+        data-aos="flip-up"
+        data-aos-duration="3000"
+        id="narx__wrapper"
+        class="narx__wrapper"
+      >
         <div class="narx__content m-5">
           <h2>Arzon Narxlar</h2>
           <h4 class="nr__p1" id="nr__p1">
@@ -251,36 +339,21 @@
   <section class="form">
     <div class="container">
       <div class="form__wrapper">
-        <form class="form2">
-          <span id="form__h1">
-            Biz bilan bog’lanish
-          </span>
-          <input required style="" id="form__inp" type="text" placeholder="Ism familya *">
-          <input required type="text" placeholder="Telefon raqamingiz *">
-          <input required type="text" placeholder="Xizmat turi * ">
-          <input required type="text" placeholder="Maqsadingiz *">
-          <button required class="form__btn" type="submit">
-            Yuborish
-          </button>
+        <form data-aos="fade-right" data-aos-duration="3000" class="form2">
+          <span id="form__h1"> Biz bilan bog’lanish </span>
+          <input
+            style=""
+            id="form__inp"
+            type="text"
+            placeholder="Ism familya *"
+          />
+          <input type="text" placeholder="Telefon raqamingiz *" />
+          <input type="text" placeholder="Xizmat turi * " />
+          <input type="text" placeholder="Maqsadingiz *" />
         </form>
-        <div class="form__img">
-          <img src="/about_img/form__img1.png" alt="foto">
-          <img src="/about_img/form__ten.png" alt="foto">
-        </div>
-      </div>
-      <div class="container">
-        <div class="form__wrapper">
-          <form data-aos="fade-right" data-aos-duration="3000" class="form2">
-            <span id="form__h1"> Biz bilan bog’lanish </span>
-            <input style="" id="form__inp" type="text" placeholder="Ism familya *" />
-            <input type="text" placeholder="Telefon raqamingiz *" />
-            <input type="text" placeholder="Xizmat turi * " />
-            <input type="text" placeholder="Maqsadingiz *" />
-          </form>
-          <div data-aos="fade-left" data-aos-duration="3000" class="form__img">
-            <img src="/about_img/form__img1.png" alt="foto" />
-            <img src="/about_img/form__ten.png" alt="foto" />
-          </div>
+        <div data-aos="fade-left" data-aos-duration="3000" class="form__img">
+          <img src="/about_img/form__img1.png" alt="foto" />
+          <img src="/about_img/form__ten.png" alt="foto" />
         </div>
       </div>
     </div>
@@ -292,9 +365,11 @@
 
 <style lang="scss" scoped>
 .btn {
-  background: linear-gradient(96deg,
+  background: linear-gradient(
+      96deg,
       rgba(25, 118, 220, 0.95) 19%,
-      rgba(231, 101, 20, 0.95) 88.27%),
+      rgba(231, 101, 20, 0.95) 88.27%
+    ),
     #fff;
 }
 
@@ -435,9 +510,11 @@
 
 .ximoya__content button {
   border-radius: 5px;
-  background: linear-gradient(96deg,
+  background: linear-gradient(
+      96deg,
       rgba(25, 118, 220, 0.95) 19%,
-      rgba(231, 101, 20, 0.95) 88.27%),
+      rgba(231, 101, 20, 0.95) 88.27%
+    ),
     #fff;
   display: inline-flex;
   padding: 10px 20px;
@@ -556,9 +633,11 @@
   align-items: center;
   gap: 10px;
   border-radius: 5px;
-  background: linear-gradient(96deg,
+  background: linear-gradient(
+      96deg,
       rgba(25, 118, 220, 0.95) 19%,
-      rgba(231, 101, 20, 0.95) 88.27%),
+      rgba(231, 101, 20, 0.95) 88.27%
+    ),
     #fff;
   margin-top: 40px;
 }
