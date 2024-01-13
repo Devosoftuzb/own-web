@@ -72,10 +72,13 @@
                     <span     id="form__h1" >
                         Biz bilan bog’lanish
                     </span>
-                    <input style="" id="form__inp" type="text" placeholder="Ism familya *">
-                    <input type="text" placeholder="Telefon raqamingiz *">
-                    <input type="text" placeholder="Xizmat turi * " >
-                    <input type="text" placeholder="Maqsadingiz *">
+                    <input required style="" id="form__inp" type="text" placeholder="Ism familya *">
+                    <input required type="text" placeholder="Telefon raqamingiz *">
+                    <input required type="text" placeholder="Xizmat turi * " >
+                    <input required type="text" placeholder="Maqsadingiz *">
+                    <button required class="form__btn" type="submit">
+                        Yuborish
+                    </button>
                 </form>
                 <div class="form__img">
                     <img src="/about_img/form__img1.png" alt="foto">
@@ -99,7 +102,7 @@
     }
     .service__hero h1{
         position: relative;
-        z-index: 15;
+        z-index: 9;
         color: #FFF;
         font-size: 54px;
         font-style: normal;
@@ -111,7 +114,7 @@
     }
     .sr__hero_p{
         position: relative;
-        z-index: 15;
+        z-index: 9;
         color: var(--body-text-color, #C9C9C9);
         text-align: center;
         font-size: 18px;

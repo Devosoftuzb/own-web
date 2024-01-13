@@ -11,10 +11,13 @@
                     <span     id="form__h1" >
                         Biz bilan bog’lanish
                     </span>
-                    <input style="" id="form__inp" type="text" placeholder="Ism familya *">
-                    <input type="text" placeholder="Telefon raqamingiz *">
-                    <input type="text" placeholder="Xizmat turi * " >
-                    <input type="text" placeholder="Maqsadingiz *">
+                    <input required style="" id="form__inp" type="text" placeholder="Ism familya *">
+                    <input required type="text" placeholder="Telefon raqamingiz *">
+                    <input required type="text" placeholder="Xizmat turi * " >
+                    <input required type="text" placeholder="Maqsadingiz *">
+                    <button required class="form__btn" type="submit">
+                        Yuborish
+                    </button>
                 </form>
                 <div class="form__img">
                     <img src="/about_img/form__img1.png" alt="foto">
