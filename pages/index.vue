@@ -168,16 +168,12 @@
 
   <section class="mt-20">
     <div class="container mx-auto p-5">
-      <div class="flex flex-col sm:gap-16 gap-10">
-        <h2
-          class="text-white sm:text-[45px] text-[26px] font-['Roboto'] font-bold"
-        >
+      <div class="flex flex-col gap-16">
+        <h2 class="text-white text-[45px] font-['Roboto'] font-bold">
           Bizning barcha xizmatlar
         </h2>
         <div class="flex flex-wrap justify-between gap-10">
-          <div
-            class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
-          >
+          <div class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg">
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               Biznesni avtomatlashtirish
             </h3>
@@ -186,25 +182,11 @@
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an
             </p>
-            <div class="flex items-center justify-between mt-5">
-              <button
-                class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium"
-              >
-                <nuxt-link to="/service">Ko'proq</nuxt-link>
-              </button>
-              <button
-                @click="modalmore"
-                class="sm:hidden text-[#1976DC] text-[40px]"
-              >
-                <i :class="more ? 'bx bx-chevron-up' : 'bx bx-chevron-down'">
-                </i>
-              </button>
-            </div>
+            <button class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5">
+              <nuxt-link to="/service">Ko'proq</nuxt-link>
+            </button>
           </div>
-
-          <div
-            class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
-          >
+          <div class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg">
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               Biznesni avtomatlashtirish
             </h3>
@@ -213,25 +195,11 @@
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an
             </p>
-            <div class="flex items-center justify-between mt-5">
-              <button
-                class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium"
-              >
-                <nuxt-link to="/service">Ko'proq</nuxt-link>
-              </button>
-              <button
-                @click="modalmore"
-                class="sm:hidden text-[#1976DC] text-[40px]"
-              >
-                <i :class="more ? 'bx bx-chevron-up' : 'bx bx-chevron-down'">
-                </i>
-              </button>
-            </div>
+            <button class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5">
+              <nuxt-link to="/service">Ko'proq</nuxt-link>
+            </button>
           </div>
-
-          <div
-            class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
-          >
+          <div class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg">
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               Biznesni avtomatlashtirish
             </h3>
@@ -240,31 +208,108 @@
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an
             </p>
-            <div class="flex items-center justify-between mt-5">
-              <button
-                class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium"
-              >
-                <nuxt-link to="/service">Ko'proq</nuxt-link>
-              </button>
-              <button
-                @click="modalmore"
-                class="sm:hidden text-[#1976DC] text-[40px]"
-              >
-                <i :class="more ? 'bx bx-chevron-up' : 'bx bx-chevron-down'">
-                </i>
-              </button>
-            </div>
+            <button class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5">
+              <nuxt-link to="/service">Ko'proq</nuxt-link>
+            </button>
           </div>
         </div>
       </div>
     </div>
   </section>
+  
+  <section class="ximoya">
+    <img class="ximoya__bg-blue" src="/home/ximoya-bg-blue.png" alt="foto">
+    <img class="ximoya__bg-red" src="/home/ximoya-bg-red.png" alt="foto">
+    <div class="container">
+      <div class="ximoya__wrapper">
+        <div class="ximoya__img">
+          <img class="ximoya-img-1" src="/home/ximoya-img.png" alt="foto">
+          <img src="/about_img/form__ten.png" alt="foto">
+        </div>
+        <div class="ximoya__content">
+            <h2>
+              Xavsiz servis
+            </h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
+            </p>
+            <div class="ximoya__card">
+                <h3>
+                  <img src="/home/ximoya--icon.png"  alt="foto">
+                  Hakerlik hujumlaridan himoyalangan
+                </h3>
+                <h3>
+                  <img src="/home/ximoya--icon.png"  alt="foto">
+                  Malumotlarning xafsizligi
+                </h3>
+                <h3>
+                  <img src="/home/ximoya--icon.png"  alt="foto">
+                  Ishonchli hizmatlar
+                </h3>
+            </div>
+            <button>
+                Bog’lanish
+            </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="narx">
+      <div class="container">
+        <div id="narx__wrapper" class="narx__wrapper">
+          <div class="narx__content">
+              <h2>
+                  Arzon Narxlar
+              </h2>
+              <h4 class="nr__p1" id="nr__p1">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
+              </h4>
+              <div class="narx__card">
+                  <h3>
+                    <img src="/home/ximoya--icon.png" alt="icon"> Onson tulov usullari
+                  </h3>
+                  <h3>
+                    <img src="/home/ximoya--icon.png" alt="icon"> Onson tulov usullari
+                  </h3>
+                  <h3>
+                    <img src="/home/ximoya--icon.png" alt="icon"> Onson tulov usullari
+                  </h3>
+              </div>
+              <button>
+                      Bog’lanish
+                  </button>
+          </div>
+          <div class="narx__img">
+            <img class="narx-img1" src="/home/nerx-img.png" alt="foto">
+            <img src="/about_img/about__hero_ten.png" alt="foto">
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="form">
+        <div class="container">
+            <div class="form__wrapper">
+                <form class="form2">
+                    <span     id="form__h1" >
+                        Biz bilan bog’lanish
+                    </span>
+                    <input style="" id="form__inp" type="text" placeholder="Ism familya *">
+                    <input type="text" placeholder="Telefon raqamingiz *">
+                    <input type="text" placeholder="Xizmat turi * " >
+                    <input type="text" placeholder="Maqsadingiz *">
+                </form>
+                <div class="form__img">
+                    <img src="/about_img/form__img1.png" alt="foto">
+                    <img src="/about_img/form__ten.png" alt="foto">
+                </div>
+            </div>
+        </div>
+    </section>
 </template>
 
 <script setup>
-import { ref } from "vue";
-const more = ref(false);
-const modalmore = () => (more.value = !more.value);
 </script>
 
 <style lang="scss" scoped>
@@ -364,4 +409,173 @@ const modalmore = () => (more.value = !more.value);
   top: -20px;
   right: -20px;
 }
+
+
+// начало sectiona ximoya
+.ximoya{
+  position: relative;
+  margin-top:154px ;
+  margin-bottom: 183px;
+}
+.ximoya__content h2{
+  color: #FFF;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+.ximoya__content p{
+  color: #6D6D6D;
+  width: 521px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 38px;
+}
+.ximoya__content h3{
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.ximoya__card{
+  border-left: solid 6px #E76514;
+  padding-left: 17px;
+}
+.ximoya__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ximoya__content button{
+  border-radius: 5px;
+  background: linear-gradient(96deg, rgba(25, 118, 220, 0.95) 19%, rgba(231, 101, 20, 0.95) 88.27%), #FFF;
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #FFF;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 50px;
+}
+.ximoya__content{
+  position: relative;
+  z-index: 2;
+}
+.ximoya__bg-blue{
+  position: absolute;
+  left: 0;
+  top: -10px;
+}
+.ximoya__bg-red{
+  position: absolute;
+  right: 0;
+  top: 300px;
+  
+}
+.ximoya-img-1{
+  margin-left: 60px;
+}
+@media(max-width:1281px){
+    .ximoya__wrapper{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .narx__wrapper{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    #narx__wrapper{
+      justify-content: center;
+    }
+}
+@media(max-width:580px){
+  .ximoya__img{
+    display: none;
+  }
+  .ximoya__content p{
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .narx__img{
+    display: none;
+  }
+  
+}
+@media(max-width:581px){
+  #nr__p1{
+    width: auto;
+  }
+}
+
+
+// Narx section
+.narx{
+  margin-bottom:125px ;
+}
+.narx__content h2{
+  color: #FFF;
+  margin-bottom: 25px;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.nr__p1{
+  color: #6D6D6D;
+  width: 521px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 38px;
+}
+.narx__card h3{
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 18px;
+}
+.narx__content button{
+  color: #FFF;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: linear-gradient(96deg, rgba(25, 118, 220, 0.95) 19%, rgba(231, 101, 20, 0.95) 88.27%), #FFF;
+  margin-top:40px ;
+}
+.narx__card{
+  padding-left: 18px;
+  border-left: #E76514 solid 6px;
+}
+.narx__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.narx-img1{
+  margin-left: 50px;
+}
 </style>
+
+              
+
