@@ -3,61 +3,73 @@
         <div class="container">  
             <img class="sr__hero__bg1" src="/service/sr__hero__bg.png" alt="foto">
             <img class="sr__hero__bg2" src="/service/sr__hero__bg2.png" alt="foto">
-            <h1>
-                Biznesni avtomatlashtirish 
+            <h1 class="text-[#FFF]">
+                Bizning xizmat turlarimiz
             </h1>
-            <p class="sr__hero_p">
+            <p class="sr__hero_p text-[#FFF]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
             </p>
-            <button class="sr__hero_btn">
-                Bog’lanish
-            </button>
             <button class="sr__hero__btn__mob">
                 <img src="/about_img/Phone.png" alt="foto">qo’ng’iroq qilish
             </button>
             <div class="sr__hero__wrapper">
-                <NuxtLink to="/service/1" class="sr__hero__card">
-                    <img class="sr__hero__card__img" src="/service/sr__hero__card.png" alt="foto">
-                    <div class="sr__hero__card__contetn">
-                            <h3>
-                                CRM sistema
-                            </h3>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                            </p>
-                    </div>
-                </NuxtLink>
                 <div class="sr__hero__card">
-                    <img class="sr__hero__card__img" src="/service/sr__hero__card.png" alt="foto">
-                    <div class="sr__hero__card__contetn">
-                            <h3>
-                                CRM sistema
-                            </h3>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                            </p>
+                    <h3 class="text-[#FFF]">
+                        Web sayt yaratish
+                    </h3>
+                    <p class="text-[#FFF]">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+                    </p>
+                    <div class="card__btn__wrapper">
+                        <button>
+                            <NuxtLink to="1">
+                            Ko’proq
+                            </NuxtLink>
+                        </button>
+                        
+                        <img src="/service/Forward (1).png" alt="foto">
                     </div>
                 </div>
                 <div class="sr__hero__card">
-                    <img class="sr__hero__card__img" src="/service/sr__hero__card.png" alt="foto">
-                    <div class="sr__hero__card__contetn">
-                            <h3>
-                                CRM sistema
-                            </h3>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                            </p>
+                    <h3 class="text-[#FFF]">
+                        Web sayt yaratish
+                    </h3>
+                    <p class="text-[#FFF]">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+                    </p>
+                    <div class="card__btn__wrapper">
+                        <button>
+                            Ko’proq
+                        </button>
+                        <img src="/service/Forward (1).png" alt="foto">
                     </div>
                 </div>
                 <div class="sr__hero__card">
-                    <img class="sr__hero__card__img" src="/service/sr__hero__card.png" alt="foto">
-                    <div class="sr__hero__card__contetn">
-                            <h3>
-                                CRM sistema
-                            </h3>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                            </p>
+                    <h3 class="text-[#FFF]">
+                        Web sayt yaratish
+                    </h3>
+                    <p class="text-[#FFF]">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+                    </p>
+                    <div class="card__btn__wrapper">
+                        <button>
+                            Ko’proq
+                        </button>
+                        <img src="/service/Forward (1).png" alt="foto">
+                    </div>
+                </div>
+                <div class="sr__hero__card">
+                    <h3 class="text-[#FFF]">
+                        Web sayt yaratish
+                    </h3>
+                    <p class="text-[#FFF]">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+                    </p>
+                    <div class="card__btn__wrapper">
+                        <button>
+                            Ko’proq
+                        </button>
+                        <img src="/service/Forward (1).png" alt="foto">
                     </div>
                 </div>
             </div>
@@ -97,7 +109,7 @@
     .service__hero{
         position: relative;
         margin-top: 250px;
-        margin-bottom: 125px;
+        margin-bottom: 175px;
         
     }
     .service__hero h1{
@@ -108,7 +120,7 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        text-align: center;
+
         margin-bottom: 40px;
 
     }
@@ -123,6 +135,7 @@
         line-height: normal;
         width: 622px;
         margin: 0 auto;
+        display: none;
     }
     .sr__hero_btn{
 
@@ -175,17 +188,25 @@
             top: -260px;
             right: -30px;
         }
-        .sr__hero__card__contetn{
-            padding: 22px 16px;
-            width: 520px;
-            height: 166px;
-            flex-shrink: 0;
+      
+        
+        .sr__hero__wrapper{
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 75px;
+            
+        }
+        .sr__hero__card{
+            position: relative;
+            z-index: 2;
             border-radius: 10px;
             background: #323459;
-            position: relative;
-            z-index: 5;
+            padding: 22px 32px;
+            width: 524px;
+
         }
-        .sr__hero__card__contetn h3{
+        .sr__hero__card h3{
             color: #EBF4FF;
             font-size: 26px;
             font-style: normal;
@@ -193,47 +214,38 @@
             line-height: normal;
             margin-bottom: 8px;
         }
-        .sr__hero__card__contetn p{
+        .sr__hero__card p{
             color: #EBF4FF;
             font-size: 18px;
             font-style: normal;
-            font-weight: 300;
+            font-weight: 400;
             line-height: normal;
-           
+            width: 524px;
         }
-        .sr__hero__card{
-            position: relative;
-            /* z-index: 2; */
-            z-index: 9;
-            width: 502px;
-            cursor: pointer;
-        }
-        .sr__hero__card__img{
-            position: absolute;
-            width: 700px;
-            height: 400px;
-            top: -120px;
-            left: 20px;
-            z-index: 1;
-            display: none;
-        }
-        .sr__hero__card:hover .sr__hero__card__img{
-            cursor: pointer;
-            display: block;
-            
-        }
-        .sr__hero__wrapper{
-            margin-top: 200px;
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            align-items: center;
+        .sr__hero__card button{
+            color: #FFF;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            display: inline-flex;
+            padding: 10px 20px;
             justify-content: center;
-            gap: 75px;
-            margin-left:140px ;
-            position: relative;
-
-            z-index: 9;
-            
+            align-items: center;
+            gap: 10px;
+            border-radius: 5px;
+            background: linear-gradient(96deg, rgba(25, 118, 220, 0.95) 19%, rgba(231, 101, 20, 0.95) 88.27%), #FFF;
+            cursor: pointer;
+    
+        }
+        .card__btn__wrapper{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .card__btn__wrapper img{
+            cursor: pointer;
         }
         .form2__bg1{
             position: absolute;
@@ -249,6 +261,13 @@
             .sr__hero__btn__mob{
                 display: block;
             }
+            .sr__hero_p{
+                display: block;
+            }
+            .sr__hero__card p{
+                width: auto;
+            }
+            
         }
         @media(max-width:1180px){
             .sr__hero__wrapper{
@@ -315,6 +334,10 @@
         @media(max-width:480px){
             .sr__hero_p{
                 width: auto;
+            }
+            .sr__hero__card{
+                padding: 10px;
+                width: 250px;
             }
         }
         @media(max-width:1025px){

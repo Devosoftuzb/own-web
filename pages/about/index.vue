@@ -2,22 +2,16 @@
     <section class="st__hero">
         <div class="container mx-auto p-5 ">
             <div class="st__hero__wrapper">
-
-                <div class="st__hero__img">
-                    <img src="/about_img/about__hero.png" width="500px" alt="foto">
-                    <img src="/about_img/about__hero_ten.png" width="500px" alt="foto">
-                </div>
                 <div class="st__hero__content">
                     <h1>
                         Biz haqimizda
                     </h1>
                     <p >
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
                     </p>
-                    <img class="st__mobile__foto" src="/about_img/about__hero_mobile.png" alt="foto">
-                    <!-- <button>
+                    <button>
                         Ko’proq bilish
-                    </button> -->
+                    </button>
                 </div>
             </div>
             <img class="about__hero__img" src="/about_img/about__hero__bg.png" alt="foto">
@@ -26,15 +20,22 @@
     </section> 
     <section class="about__team">
         <div class="container">
-            <h1 class="sm:text-[54px] text-[25px] sm:text-center text-start ml-5">
-                Bizning tajribali hodimlar
-            </h1>
-            <p class="team__p sm:text-center text-start sm:ml-0 ml-5">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
-            </p>
-            <button class="team__btn1">
-                Bog’lanish
-            </button>
+           <div class="dev__ab">
+                <div class="dev__av__img">
+                    <img src="/about_img/dev__ib.png" alt="foto">
+                </div>
+                <div class="dev__av__content">
+                    <h3 class="text-[#FFF]">
+                        Devosoft haqida
+                    </h3>
+                    <p class="text-[#6D6D6D]">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
+                    </p>
+                    <button>
+                        Ko’proq bilish
+                    </button>
+                </div>
+           </div>
             <button id="team__btn" class="sm:ml-0 ml-5 mt-20">
                <img src="/about_img/Phone.png" alt="icon"> qo’ng’iroq qilish
             </button>
@@ -237,8 +238,9 @@
         justify-content: space-between;
     }
     .st__hero__content h1{
+        margin-top: 100px;
         color: #FFF;
-        font-size: 37px;
+        font-size: 54px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -648,5 +650,76 @@
         font-style: normal;
         font-weight: 500;
         line-height: normal;   
+    }
+    .team__wrapper{
+        margin-left: 70px;
+    }
+    .st__hero__content{
+        position: relative;
+        z-index: 2;
+    }
+    .dev__av__content h3{
+        color: #FFF;
+        font-size: 37px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 25px;
+    }
+    .dev__av__content p{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 62px;
+        width: 521px;
+        }
+    .dev__av__content button{
+        color: #FFF;
+
+
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        display: inline-flex;
+        padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 5px;
+        background: linear-gradient(96deg, rgba(25, 118, 220, 0.95) 19%, rgba(231, 101, 20, 0.95) 88.27%), #FFF;
+    }
+    .dev__ab{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        margin-bottom: 125px;
+    }
+    @media(max-width:990px){
+        .dev__ab{
+            flex-direction: column;
+            gap: 50px;
+        }
+    }
+    @media(max-width:580px){
+        .team__wrapper{
+            margin-left: 0;
+        }
+        .dev__av__content{
+            margin-left: 10px;
+        }
+        .dev__av__img{
+            display: none;
+        }
+        .dev__av__content p{
+            width: auto;
+            margin-bottom: 20px;
+        }
+        .dev__av__content button{
+            display: none;
+        }
+        
     }
 </style>
