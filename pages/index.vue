@@ -36,49 +36,94 @@
       </div>
     </div>
     <img
-      class="absolute top-0 left-0"
+      class="dark:block hidden absolute top-0 left-0"
       src="/home/home-blue-effekt.png"
       alt=""
     />
     <img
-      class="absolute right-0 top-20"
+      class="dark:block hidden absolute right-0 top-20"
       src="/home/home-orange-effekt.png"
       alt=""
     />
   </section>
 
-  <section class="mt-20 overflow-x-hidden">
+  <section class="relative mt-20">
     <div class="container mx-auto p-5">
-      <div class="items" data-v-e33b1926="">
-        <div class="entry" data-v-e33b1926="">
-          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
+      <div class="flex justify-between items-center z-10">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          class="lg:flex hidden items-center"
+        >
+          <img src="/about_img/dev__ib.png" alt="" />
         </div>
-        <div class="entry" data-v-e33b1926="">
-          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
-        </div>
-        <div class="entry" data-v-e33b1926="">
-          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
-        </div>
-        <div class="entry" data-v-e33b1926="">
-          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
-        </div>
-        <div class="entry" data-v-e33b1926="">
-          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
-        </div>
-        <div class="entry" data-v-e33b1926="">
-          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
-        </div>
-        <div class="entry" data-v-e33b1926="">
-          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
-        </div>
-        <div class="entry" data-v-e33b1926="">
-          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
-        </div>
-        <div class="entry" data-v-e33b1926="">
-          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
+
+        <div
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          class="flex flex-col gap-5"
+        >
+          <h3
+            class="text-white lg:text-[45px] sm:text-[37px] text-[26px] font-['Roboto'] font-bold"
+          >
+            Biz haqimizda
+          </h3>
+          <p
+            class="lg:block hidden text-[#6D6D6D] font-['Poppins'] font-light w-[521px] mb-10"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. It has
+            survived not only fives
+          </p>
+
+          <div
+            class="hidden sm:flex items-center gap-10 border-l-[5px] p-5 border-[#E76514] mb-10"
+          >
+            <div class="flex items-center gap-5 text-white">
+              <img src="/home/galochka.png" alt="" />
+              <span
+                >Sifatli <br />
+                xizmatlar</span
+              >
+            </div>
+            <div class="flex items-center gap-5 text-white">
+              <img src="/home/lamp.png" alt="" />
+              <span
+                >Noodatiy <br />
+                loyihalar</span
+              >
+            </div>
+          </div>
+
+          <p class="lg:hidden text-[#6D6D6D] font-['Poppins'] font-light">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the
+          </p>
+          <img
+            class="lg:hidden mb-3"
+            src="/about_img/about__hero_mobile.png"
+            alt=""
+          />
+          <button
+            class="btn sm:w-[167px] w-[121px] sm:py-3 py-2 rounded-lg text-white"
+          >
+            <nuxt-link to="/about">Ko'proq bilish</nuxt-link>
+          </button>
         </div>
       </div>
     </div>
+    <img
+      class="absolute top-0 right-0"
+      src="/about_img/about__hero__bg2.png"
+      alt=""
+    />
   </section>
 
   <section class="relative mt-28">
@@ -159,67 +204,6 @@
     />
   </section>
 
-  <section class="relative mt-20">
-    <div class="container mx-auto p-5">
-      <div class="flex justify-between items-center z-10">
-        <div
-          data-aos="fade-right"
-          data-aos-duration="3000"
-          class="lg:flex hidden flex-col items-center"
-        >
-          <img src="/about_img/about__hero.png" alt="" />
-          <img src="/about_img/about__hero_ten.png" alt="" />
-        </div>
-
-        <div
-          data-aos="fade-left"
-          data-aos-duration="3000"
-          class="flex flex-col gap-5"
-        >
-          <h3
-            class="text-white lg:text-[45px] sm:text-[37px] text-[26px] font-['Roboto'] font-bold"
-          >
-            Biz haqimizda
-          </h3>
-          <p
-            class="lg:block hidden text-[#6D6D6D] font-['Poppins'] font-light w-[521px] mb-10"
-          >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to make a type specimen book. It has
-            survived not only five
-          </p>
-
-          <p class="lg:hidden text-[#6D6D6D] font-['Poppins'] font-light">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the
-          </p>
-          <img
-            class="lg:hidden mb-3"
-            src="/about_img/about__hero_mobile.png"
-            alt=""
-          />
-          <button
-            class="btn sm:w-[167px] w-[121px] sm:py-3 py-2 rounded-lg text-white"
-          >
-            <nuxt-link to="/about">Ko'proq bilish</nuxt-link>
-          </button>
-        </div>
-      </div>
-    </div>
-    <img
-      class="absolute top-0 right-0"
-      src="/about_img/about__hero__bg2.png"
-      alt=""
-    />
-  </section>
-
   <section class="mt-20">
     <div class="container mx-auto p-5">
       <div class="flex flex-col gap-16">
@@ -246,11 +230,109 @@
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an
             </p>
-            <button
-              class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5"
+            <div class="flex items-center justify-between mt-5">
+              <button
+                class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium"
+              >
+                <nuxt-link to="/service">Ko'proq</nuxt-link>
+              </button>
+              <button
+                @click="modalInfo"
+                class="text-[30px] flex items-center text-[#1976DC]"
+              >
+                <i
+                  :class="info ? 'bx bx-chevron-up' : 'bx bx-chevron-down'"
+                ></i>
+              </button>
+            </div>
+            <div
+              :class="
+                info
+                  ? 'flex flex-wrap items-center gap-x-20 gap-y-2 border-t pt-5 mt-5 border-[#8B8B8B] bg-[#323459]'
+                  : 'hidden'
+              "
             >
-              <nuxt-link to="/service">Ko'proq</nuxt-link>
-            </button>
+              <span
+                class="info w-[100px] flex items-center gap-5 text-white font-['Roboto'] font-medium"
+              >
+                <svg
+                  width="33"
+                  height="3"
+                  viewBox="0 0 33 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    y1="1.5"
+                    x2="33"
+                    y2="1.5"
+                    stroke="#1976DC"
+                    stroke-width="3"
+                  />
+                </svg>
+                CRM</span
+              >
+              <span
+                class="info w-[100px] flex items-center gap-5 text-white font-['Roboto'] font-medium"
+              >
+                <svg
+                  width="33"
+                  height="3"
+                  viewBox="0 0 33 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    y1="1.5"
+                    x2="33"
+                    y2="1.5"
+                    stroke="#1976DC"
+                    stroke-width="3"
+                  />
+                </svg>
+                WMS</span
+              >
+              <span
+                class="info w-[100px] flex items-center gap-5 text-white font-['Roboto'] font-medium"
+              >
+                <svg
+                  width="33"
+                  height="3"
+                  viewBox="0 0 33 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    y1="1.5"
+                    x2="33"
+                    y2="1.5"
+                    stroke="#1976DC"
+                    stroke-width="3"
+                  />
+                </svg>
+                LMS</span
+              >
+              <span
+                class="info w-[100px] flex items-center gap-5 text-white font-['Roboto'] font-medium"
+              >
+                <svg
+                  width="33"
+                  height="3"
+                  viewBox="0 0 33 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    y1="1.5"
+                    x2="33"
+                    y2="1.5"
+                    stroke="#1976DC"
+                    stroke-width="3"
+                  />
+                </svg>
+                HRM</span
+              >
+            </div>
           </div>
           <div
             class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
@@ -263,14 +345,112 @@
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an
             </p>
-            <button
-              class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5"
+            <div class="flex items-center justify-between mt-5">
+              <button
+                class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium"
+              >
+                <nuxt-link to="/service">Ko'proq</nuxt-link>
+              </button>
+              <button
+                @click="modalInfo2"
+                class="text-[30px] flex items-center text-[#1976DC]"
+              >
+                <i
+                  :class="info2 ? 'bx bx-chevron-up' : 'bx bx-chevron-down'"
+                ></i>
+              </button>
+            </div>
+            <div
+              :class="
+                info2
+                  ? 'flex flex-wrap items-center gap-x-20 gap-y-2 border-t pt-5 mt-5 border-[#8B8B8B]'
+                  : 'hidden'
+              "
             >
-              <nuxt-link to="/service">Ko'proq</nuxt-link>
-            </button>
+              <span
+                class="info w-[100px] flex items-center gap-5 text-white font-['Roboto'] font-medium"
+              >
+                <svg
+                  width="33"
+                  height="3"
+                  viewBox="0 0 33 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    y1="1.5"
+                    x2="33"
+                    y2="1.5"
+                    stroke="#1976DC"
+                    stroke-width="3"
+                  />
+                </svg>
+                CRM</span
+              >
+              <span
+                class="info w-[100px] flex items-center gap-5 text-white font-['Roboto'] font-medium"
+              >
+                <svg
+                  width="33"
+                  height="3"
+                  viewBox="0 0 33 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    y1="1.5"
+                    x2="33"
+                    y2="1.5"
+                    stroke="#1976DC"
+                    stroke-width="3"
+                  />
+                </svg>
+                WMS</span
+              >
+              <span
+                class="info w-[100px] flex items-center gap-5 text-white font-['Roboto'] font-medium"
+              >
+                <svg
+                  width="33"
+                  height="3"
+                  viewBox="0 0 33 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    y1="1.5"
+                    x2="33"
+                    y2="1.5"
+                    stroke="#1976DC"
+                    stroke-width="3"
+                  />
+                </svg>
+                LMS</span
+              >
+              <span
+                class="info w-[100px] flex items-center gap-5 text-white font-['Roboto'] font-medium"
+              >
+                <svg
+                  width="33"
+                  height="3"
+                  viewBox="0 0 33 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    y1="1.5"
+                    x2="33"
+                    y2="1.5"
+                    stroke="#1976DC"
+                    stroke-width="3"
+                  />
+                </svg>
+                HRM</span
+              >
+            </div>
           </div>
           <div
-            class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
+            class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg z-10"
           >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               Biznesni avtomatlashtirish
@@ -280,11 +460,109 @@
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an
             </p>
-            <button
-              class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5"
+            <div class="flex items-center justify-between mt-5">
+              <button
+                class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium"
+              >
+                <nuxt-link to="/service">Ko'proq</nuxt-link>
+              </button>
+              <button
+                @click="modalInfo3"
+                class="text-[30px] flex items-center text-[#1976DC]"
+              >
+                <i
+                  :class="info3 ? 'bx bx-chevron-up' : 'bx bx-chevron-down'"
+                ></i>
+              </button>
+            </div>
+            <div
+              :class="
+                info3
+                  ? 'flex flex-wrap items-center gap-x-20 gap-y-2 border-t pt-5 mt-5 border-[#8B8B8B]'
+                  : 'hidden'
+              "
             >
-              <nuxt-link to="/service">Ko'proq</nuxt-link>
-            </button>
+              <span
+                class="info w-[100px] flex items-center gap-5 text-white font-['Roboto'] font-medium"
+              >
+                <svg
+                  width="33"
+                  height="3"
+                  viewBox="0 0 33 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    y1="1.5"
+                    x2="33"
+                    y2="1.5"
+                    stroke="#1976DC"
+                    stroke-width="3"
+                  />
+                </svg>
+                CRM</span
+              >
+              <span
+                class="info w-[100px] flex items-center gap-5 text-white font-['Roboto'] font-medium"
+              >
+                <svg
+                  width="33"
+                  height="3"
+                  viewBox="0 0 33 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    y1="1.5"
+                    x2="33"
+                    y2="1.5"
+                    stroke="#1976DC"
+                    stroke-width="3"
+                  />
+                </svg>
+                WMS</span
+              >
+              <span
+                class="info w-[100px] flex items-center gap-5 text-white font-['Roboto'] font-medium"
+              >
+                <svg
+                  width="33"
+                  height="3"
+                  viewBox="0 0 33 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    y1="1.5"
+                    x2="33"
+                    y2="1.5"
+                    stroke="#1976DC"
+                    stroke-width="3"
+                  />
+                </svg>
+                LMS</span
+              >
+              <span
+                class="info w-[100px] flex items-center gap-5 text-white font-['Roboto'] font-medium"
+              >
+                <svg
+                  width="33"
+                  height="3"
+                  viewBox="0 0 33 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    y1="1.5"
+                    x2="33"
+                    y2="1.5"
+                    stroke="#1976DC"
+                    stroke-width="3"
+                  />
+                </svg>
+                HRM</span
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -336,7 +614,7 @@
   <section class="narx">
     <div class="container">
       <div
-        data-aos="flip-up"
+        data-aos="fade-right"
         data-aos-duration="3000"
         id="narx__wrapper"
         class="narx__wrapper"
@@ -374,10 +652,93 @@
     </div>
   </section>
 
+  <section class="mt-20 overflow-x-hidden">
+    <div class="container mx-auto p-5">
+      <div class="items" data-v-e33b1926="">
+        <div class="entry" data-v-e33b1926="">
+          <img
+            class="sm:w-auto w-[150px]"
+            src="/sponsors/epam.png"
+            data-v-e33b1926
+            alt=""
+          />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img
+            class="sm:w-auto w-[150px]"
+            src="/sponsors/epam.png"
+            data-v-e33b1926
+            alt=""
+          />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img
+            class="sm:w-auto w-[150px]"
+            src="/sponsors/epam.png"
+            data-v-e33b1926
+            alt=""
+          />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img
+            class="sm:w-auto w-[150px]"
+            src="/sponsors/epam.png"
+            data-v-e33b1926
+            alt=""
+          />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img
+            class="sm:w-auto w-[150px]"
+            src="/sponsors/epam.png"
+            data-v-e33b1926
+            alt=""
+          />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img
+            class="sm:w-auto w-[150px]"
+            src="/sponsors/epam.png"
+            data-v-e33b1926
+            alt=""
+          />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img
+            class="sm:w-auto w-[150px]"
+            src="/sponsors/epam.png"
+            data-v-e33b1926
+            alt=""
+          />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img
+            class="sm:w-auto w-[150px]"
+            src="/sponsors/epam.png"
+            data-v-e33b1926
+            alt=""
+          />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img
+            class="sm:w-auto w-[150px]"
+            src="/sponsors/epam.png"
+            data-v-e33b1926
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="form">
     <div class="container">
       <div class="form__wrapper">
-        <form data-aos="fade-right" data-aos-duration="3000" class="form2">
+        <form
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          class="form2 w-[500px]"
+        >
           <span id="form__h1"> Biz bilan bog’lanish </span>
           <input
             style=""
@@ -388,8 +749,13 @@
           <input type="text" placeholder="Telefon raqamingiz *" />
           <input type="text" placeholder="Xizmat turi * " />
           <input type="text" placeholder="Maqsadingiz *" />
+          <button required class="form__btn" type="submit">Yuborish</button>I
         </form>
-        <div data-aos="fade-left" data-aos-duration="3000" class="form__img">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          class="sm:flex flex-col items-center hidden"
+        >
           <img src="/about_img/form__img1.png" alt="foto" />
           <img src="/about_img/form__ten.png" alt="foto" />
         </div>
@@ -399,20 +765,26 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
+const info = ref(false);
+const modalInfo = () => (info.value = !info.value);
+const info2 = ref(false);
+const modalInfo2 = () => (info2.value = !info2.value);
+const info3 = ref(false);
+const modalInfo3 = () => (info3.value = !info3.value);
 </script>
 
 <style lang="scss" scoped>
-
 .items[data-v-e33b1926] {
-    display: flex;
-    gap: 44px;
-    align-items: center;
-    width: -moz-fit-content;
-    width: fit-content;
-    width: -moz-max-content;
-    width: max-content;
-    animation: carouselAnim-e33b1926 10s infinite alternate linear;
-    overflow-x: auto;
+  display: flex;
+  gap: 44px;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: -moz-max-content;
+  width: max-content;
+  animation: carouselAnim-e33b1926 5s infinite alternate linear;
+  overflow-x: auto;
 }
 
 @keyframes carouselAnim-e33b1926 {
@@ -627,6 +999,11 @@
 }
 
 @media (max-width: 580px) {
+  .ximoya {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
   .ximoya__img {
     display: none;
   }

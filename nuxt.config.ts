@@ -35,7 +35,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "DevoSoft",
+      title: "DEVOSOFT | IT Company",
       link: [
         {
           rel: "preconnect",
@@ -50,11 +50,16 @@ export default defineNuxtConfig({
           href: "https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap",
         },
         {
+          rel: "icon",
+          type: "image/x-icon",
+          href: "/favicon.png",
+        },
+        {
           rel: "stylesheet",
           href: "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css",
         },
       ],
-      meta: [{ name: "author", content: "DevoSoft" }],
+      meta: [{ name: "author", content: "DEVOSOFT" }],
     },
   },
 })
