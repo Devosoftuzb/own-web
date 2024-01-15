@@ -1,16 +1,18 @@
 <template>
   <section class="sm:mt-60 mt-32 flex items-center">
     <div class="container mx-auto p-5">
-      <div class="flex flex-col sm:items-center gap-5">
+      <div class="flex flex-col sm:items-start gap-5">
         <h1
-          data-aos="zoom-in"
+          data-aos="fade-down"
           data-aos-duration="2000"
           class="text-white lg:text-[65px] sm:text-[40px] text-[26px] font-['Roboto'] font-bold"
         >
-          DevoSoft - vaqtni qadirlovchilar uchun
+          {{ $t("Hero-title") }}
         </h1>
         <p
-          class="text-[#C9C9C9] lg:w-[622px] sm:w-[600px] pr-5 sm:text-[18px] text-[14px] sm:text-center font-['Poppins'] font-light"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          class="text-[#C9C9C9] lg:w-[622px] sm:w-[600px] pr-5 sm:text-[18px] text-[14px] font-['Poppins'] font-light"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy
@@ -20,9 +22,11 @@
           data-aos-duration="2000"
           class="sm:flex hidden btn text-white font-['Roboto'] font-medium text-[21px] px-3 py-1 rounded-[5px]"
         >
-          <a href="tel:+998 90 555 55 56">Bog’lanish</a>
+          <a href="tel:+998 90 555 55 56">{{ $t("Hero-btn") }}</a>
         </button>
         <a
+          data-aos="fade-up"
+          data-aos-duration="2000"
           href="tel:+998 90 555 55 56"
           class="sm:hidden flex items-center gap-3 text-white border-2 border-[#1976DC] rounded-md w-[198px] font-light font-['Poppins'] px-2 py-1"
         >
@@ -41,6 +45,40 @@
       src="/home/home-orange-effekt.png"
       alt=""
     />
+  </section>
+
+  <section class="mt-20 overflow-x-hidden">
+    <div class="container mx-auto p-5">
+      <div class="items" data-v-e33b1926="">
+        <div class="entry" data-v-e33b1926="">
+          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
+        </div>
+        <div class="entry" data-v-e33b1926="">
+          <img class="sm:w-auto w-[150px]" src="/sponsors/epam.png" data-v-e33b1926 alt="" />
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="relative mt-28">
@@ -211,7 +249,7 @@
             <button
               class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium mt-5"
             >
-              <nuxt-link to="/service/1">Ko'proq</nuxt-link>
+              <nuxt-link to="/service">Ko'proq</nuxt-link>
             </button>
           </div>
           <div
@@ -364,6 +402,28 @@
 </script>
 
 <style lang="scss" scoped>
+
+.items[data-v-e33b1926] {
+    display: flex;
+    gap: 44px;
+    align-items: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    width: -moz-max-content;
+    width: max-content;
+    animation: carouselAnim-e33b1926 10s infinite alternate linear;
+    overflow-x: auto;
+}
+
+@keyframes carouselAnim-e33b1926 {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(calc(-100% + 1500px));
+  }
+}
+
 .btn {
   background: linear-gradient(
       96deg,
@@ -659,4 +719,3 @@
 </style>
 
               
-

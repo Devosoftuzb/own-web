@@ -21,15 +21,19 @@
               <NuxtLink to="/service">Service</NuxtLink>
             </li>
             <li class="hover:font-bold">
+              <NuxtLink to="/portfolio">Portfolio</NuxtLink>
+            </li>
+            <li class="hover:font-bold">
               <NuxtLink to="/contact">Contact</NuxtLink>
             </li>
             <li class="pl-5 border-l py-5">
               <div class="relative">
                 <button
                   @click="modallang"
+                  
                   class="flex items-end text-white hover:font-bold font-['Poppins'] font-light cursor-pointer"
                 >
-                  Uzb
+                  <span id="langName">Eng</span>
                   <i
                     :class="
                       lang
@@ -46,14 +50,16 @@
                   "
                 >
                   <button
+                    @click="modallang"
                     class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
                   >
-                    Eng
+                    <a :href="localesKey" id="langName2">Uzb</a>
                   </button>
                   <button
+                    @click="modallang"
                     class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
                   >
-                    Rus
+                    <a :href="localesKey2" id="langName3">Rus</a>
                   </button>
                 </div>
               </div>
@@ -165,6 +171,9 @@
                 <NuxtLink to="/service" @click="modalmenu">Service</NuxtLink>
               </li>
               <li class="hover:font-bold">
+                <NuxtLink to="/portfolio" @click="modalmenu">Portfolio</NuxtLink>
+              </li>
+              <li class="hover:font-bold">
                 <NuxtLink to="/contact" @click="modalmenu">Contact</NuxtLink>
               </li>
             </ul>
@@ -172,12 +181,7 @@
 
           <div>
             <NuxtLink to="/">
-              <img
-                src="/Logo.png"
-                alt=""
-                width="150px"
-                height="50px"
-              />
+              <img src="/Logo.png" alt="" width="150px" height="50px" />
             </NuxtLink>
           </div>
           <div class="relative">
@@ -196,12 +200,14 @@
               "
             >
               <button
-                @click="modallang" class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
+                @click="modallang"
+                class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
               >
                 ENG
               </button>
               <button
-                @click="modallang" class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
+                @click="modallang"
+                class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
               >
                 RU
               </button>
@@ -211,13 +217,12 @@
       </nav>
 
       <!-- response mobile end -->
-
     </div>
   </header>
 </template>
   
   <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted } from "vue";
 const lang = ref(false);
 const modallang = () => {
   if (bell.value) {
@@ -247,16 +252,42 @@ const modalmenu = () => {
   } else {
     menu.value = !menu.value;
   }
-}
+};
+
+const localesKey = ref("/uz-UZ")
+const localesKey2 = ref("ru-RU")
+
 
 onMounted(() => {
-  window.addEventListener("scroll", function(){
+  window.addEventListener("scroll", function () {
     let header = document.querySelector("header");
     let container = this.document.querySelector(".container");
-    header.classList.toggle("headerScroll", window.scrollY > 0)
-    container.classList.toggle("border-none", window.scrollY > 0)
-})
+    header.classList.toggle("headerScroll", window.scrollY > 0);
+    container.classList.toggle("border-none", window.scrollY > 0);
+  });
 
+  const router = useRouter()
+  
+
+  console.log(router.currentRoute._value.path);
+
+  const key = ref(router.currentRoute._value.path);
+  if(key.value == '/uz-UZ'){
+    localesKey.value = "/"
+    localesKey2.value = "/ru-RU"
+    langName.textContent = "Uzb"
+    langName2.textContent = "Eng"
+    langName3.textContent = "Rus"
+  }
+
+  if(key.value == '/ru-RU'){
+    localesKey.value = "/"
+    localesKey2.value = "/uz-UZ"
+    langName.textContent = "Rus"
+    langName2.textContent = "Eng"
+    langName3.textContent = "Uzb"
+  }
+  
 });
 </script>
   
@@ -266,6 +297,6 @@ onMounted(() => {
 }
 
 .headerScroll {
-  background: #07081A;
+  background: #07081a;
 }
 </style>
