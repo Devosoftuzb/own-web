@@ -4,10 +4,12 @@
         <img class="portfolio__hero__bg2"  src="/service/sr__hero__bg2.png" alt="FOTO">
         <img src="" alt="">
         <div class="container"> 
-            <h1 class=" text-[#FFF]">
+            <h1 data-aos="zoom-in" data-aos-duration="2000" class=" text-[#FFF]">
                 Portfolio
             </h1>
-            <p class="portfolio__hero__p text-[#6D6D6D]">
+            <p data-aos-duration="2000" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="portfolio__hero__p text-[#6D6D6D]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
             </p>
         </div>
@@ -67,7 +69,8 @@
             
             <img class="form__bg2" src="/about_img/about__hero__bg2.png" alt="foto">
             <div class="form__wrapper">
-                <form class="form2">
+                <form data-aos-duration="3000"  data-aos="fade-up"
+                     data-aos-anchor-placement="top-bottom" class="form2">
                     <span     id="form__h1" >
                         Biz bilan bog’lanish
                     </span>
@@ -79,7 +82,7 @@
                         Yuborish
                     </button>
                 </form>
-                <div class="form__img">
+                <div  data-aos-duration="3000" data-aos="zoom-in" class="form__img">
                     <img src="/about_img/form__img1.png" alt="foto">
                     <img src="/about_img/form__ten.png" alt="foto">
                 </div>
