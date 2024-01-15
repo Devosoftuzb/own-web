@@ -227,9 +227,6 @@
         .contact2 form input {
             width: auto;
         }
-        .contact2 form {
-
-        }
     }
     @media(max-width:980px){
         .contact2 form {
