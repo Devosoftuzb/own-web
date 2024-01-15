@@ -3,7 +3,8 @@
         <div class="container">  
             <img class="sr__hero__bg1" src="/service/sr__hero__bg.png" alt="foto">
             <img class="sr__hero__bg2" src="/service/sr__hero__bg2.png" alt="foto">
-            <h1 class="text-[#FFF]">
+            <h1   data-aos="fade-right"
+                data-aos-duration="3000" class="text-[#FFF]">
                 Bizning xizmat turlarimiz
             </h1>
             <p class="sr__hero_p text-[#FFF]">
@@ -13,7 +14,7 @@
                 <img src="/about_img/Phone.png" alt="foto">qo’ng’iroq qilish
             </button>
             <div class="sr__hero__wrapper">
-                <div class="sr__hero__card">
+                <div data-aos-duration="3000"  data-aos="fade-down-right" class="sr__hero__card">
                     <h3 class="text-[#FFF]">
                         Web sayt yaratish
                     </h3>
@@ -30,7 +31,7 @@
                         <img src="/service/Forward (1).png" alt="foto">
                     </div>
                 </div>
-                <div class="sr__hero__card">
+                <div data-aos-duration="3000"  data-aos="fade-down-left"  class="sr__hero__card">
                     <h3 class="text-[#FFF]">
                         Web sayt yaratish
                     </h3>
@@ -44,7 +45,7 @@
                         <img src="/service/Forward (1).png" alt="foto">
                     </div>
                 </div>
-                <div class="sr__hero__card">
+                <div data-aos-duration="3000"  data-aos="fade-down-right" class="sr__hero__card">
                     <h3 class="text-[#FFF]">
                         Web sayt yaratish
                     </h3>
@@ -58,7 +59,7 @@
                         <img src="/service/Forward (1).png" alt="foto">
                     </div>
                 </div>
-                <div class="sr__hero__card">
+                <div data-aos-duration="3000"  data-aos="fade-down-left" class="sr__hero__card">
                     <h3 class="text-[#FFF]">
                         Web sayt yaratish
                     </h3>
@@ -80,7 +81,9 @@
             <img class="form2__bg1" src="/about_img/about__hero__bg.png" alt="foto">
             <img class="form__bg2" src="/about_img/about__hero__bg2.png" alt="foto">
             <div class="form__wrapper">
-                <form class="form2">
+                <form  data-aos-duration="2000" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="form2">
                     <span     id="form__h1" >
                         Biz bilan bog’lanish
                     </span>
@@ -92,7 +95,10 @@
                         Yuborish
                     </button>
                 </form>
-                <div class="form__img">
+                <div data-aos-duration="1500" data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-offset="0" class="form__img">
                     <img src="/about_img/form__img1.png" alt="foto">
                     <img src="/about_img/form__ten.png" alt="foto">
                 </div>

@@ -7,7 +7,8 @@
             <img class="form__bg1" src="/about_img/about__hero__bg.png" alt="foto">
             <img class="form__bg2" src="/about_img/about__hero__bg2.png" alt="foto">
             <div class="form__wrapper">
-                <form class="form2">
+                <form data-aos-duration="3000"  data-aos="fade-up"
+                     data-aos-anchor-placement="top-bottom" class="form2">
                     <span     id="form__h1" >
                         Biz bilan bog’lanish
                     </span>
@@ -19,7 +20,7 @@
                         Yuborish
                     </button>
                 </form>
-                <div class="form__img">
+                <div data-aos-duration="3000" data-aos="zoom-in"  class="form__img">
                     <img src="/about_img/form__img1.png" alt="foto">
                     <img src="/about_img/form__ten.png" alt="foto">
                 </div>

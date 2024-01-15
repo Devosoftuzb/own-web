@@ -3,13 +3,16 @@
         <div class="container mx-auto p-5 ">
             <div class="st__hero__wrapper">
                 <div class="st__hero__content">
-                    <h1>
+                    <h1 data-aos="fade-right" data-aos-duration="3000">
                         Biz haqimizda
                     </h1>
-                    <p >
+                    <p data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
                     </p>
-                    <button>
+                    <button data-aos="fade-right" data-aos-duration="3000">
                         Ko’proq bilish
                     </button>
                 </div>
@@ -21,17 +24,18 @@
     <section class="about__team">
         <div class="container">
            <div class="dev__ab">
-                <div class="dev__av__img">
+                <div data-aos-duration="2000" data-aos="fade-up"
+                    data-aos-anchor-placement="center-center" class="dev__av__img">
                     <img src="/about_img/dev__ib.png" alt="foto">
                 </div>
                 <div class="dev__av__content">
-                    <h3 class="text-[#FFF]">
+                    <h3 data-aos-duration="1500"  data-aos="zoom-in-left" class="text-[#FFF]">
                         Devosoft haqida
                     </h3>
-                    <p class="text-[#6D6D6D]">
+                    <p data-aos-duration="2000"  data-aos="zoom-in-left" class="text-[#6D6D6D]">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
                     </p>
-                    <button>
+                    <button data-aos-duration="3000"  data-aos="zoom-in-left">
                         Ko’proq bilish
                     </button>
                 </div>
@@ -40,7 +44,7 @@
                <img src="/about_img/Phone.png" alt="icon"> qo’ng’iroq qilish
             </button>
             <div class="team__wrapper">
-                <div class="team__card">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000" class="team__card">
                     <div class="over__bg">
                         <div class="icon__wrapper">
                         <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
@@ -58,7 +62,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="team__card">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"
+                class="team__card">
                     <div class="over__bg">
                         <div class="icon__wrapper">
                         <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
@@ -76,7 +81,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="team__card">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000" class="team__card">
                     <div class="over__bg">
                         <div class="icon__wrapper">
                         <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
@@ -94,7 +99,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="team__card">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000" class="team__card">
                     <div class="over__bg">
                         <div class="icon__wrapper">
                         <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
@@ -112,7 +117,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="team__card">
+                <div data-aos="fade-up" data-aos-duration="3000"
+       class="team__card">
                     <div class="over__bg">
                         <div class="icon__wrapper">
                         <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
@@ -130,7 +136,7 @@
                         </p>
                     </div>
                 </div>
-                <div id="card__tr" class="team__card">
+                <div data-aos="fade-up" data-aos-duration="3000" id="card__tr" class="team__card">
                     <div class="over__bg">
                         <div class="icon__wrapper">
                         <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
@@ -148,7 +154,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="team__card">
+                <div data-aos="fade-up" data-aos-duration="3000" class="team__card">
                     <div class="over__bg">
                         <div class="icon__wrapper">
                         <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
@@ -166,7 +172,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="team__card">
+                <div data-aos="fade-up" data-aos-duration="3000" class="team__card">
                     <div class="over__bg">
                         <div class="icon__wrapper">
                         <a href="!#"><img src="/about_img/YouTube.png" alt="icon"></a>
@@ -194,7 +200,9 @@
             
             <img class="form__bg2" src="/about_img/about__hero__bg2.png" alt="foto">
             <div class="form__wrapper">
-                <form class="form2">
+                <form data-aos-duration="2000" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"  class="form2">
                     <span     id="form__h1" >
                         Biz bilan bog’lanish
                     </span>
@@ -206,7 +214,10 @@
                         Yuborish
                     </button>
                 </form>
-                <div class="form__img">
+                <div data-aos-duration="1500" data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-offset="0" class="form__img">
                     <img src="/about_img/form__img1.png" alt="foto">
                     <img src="/about_img/form__ten.png" alt="foto">
                 </div>
