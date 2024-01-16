@@ -8,14 +8,15 @@
     <div class="container mx-auto p-5 lg:border-t">
       <div class="flex md:flex-row flex-col justify-between">
         <div class="md:block hidden flex flex-col gap-4">
-          <img src="/Logo.png" alt="Logo team" />
+          <NuxtLink :to="localPath('/')" class="bg-[url('/Logo.png')] bg-no-repeat bg-center bg-cover w-[170px] h-[80px] block">
+          </NuxtLink>
           <h3
-            class="text-white text-[26px] font-['Roboto'] ml-[40px] font-semibold"
+            class="text-white text-[26px] font-['Roboto'] font-semibold"
           >
             {{ $t("footer-mediya") }}
           </h3>
           <div
-            class="text-[#1976DC] text-[24px] flex itmes-center gap-3 ml-[40px]"
+            class="text-[#1976DC] text-[24px] flex itmes-center gap-3"
           >
             <i class="bx bxl-youtube"></i>
             <i class="bx bxl-telegram"></i>

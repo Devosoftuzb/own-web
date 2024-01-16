@@ -3,24 +3,18 @@
     <div class="container mx-auto p-5">
       <div class="flex flex-col sm:items-start gap-5">
         <h1
-          data-aos="fade-down"
-          data-aos-duration="2000"
           class="text-white lg:text-[65px] sm:text-[40px] text-[26px] font-['Roboto'] font-bold"
         >
           {{ $t("Hero-title") }}
         </h1>
         <p
-          data-aos="fade-right"
-          data-aos-duration="2000"
           class="text-[#C9C9C9] lg:w-[622px] sm:w-[600px] pr-5 sm:text-[18px] text-[14px] font-['Poppins'] font-light"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy
         </p>
         <button
-          data-aos="fade-up"
-          data-aos-duration="2000"
-          class="sm:flex hidden btn text-white font-['Roboto'] font-medium text-[21px] px-3 py-1 rounded-[5px]"
+          class="sm:flex z-10 hidden btn text-white font-['Roboto'] font-medium text-[21px] px-3 py-1 rounded-[5px]"
         >
           <a href="tel:+998 90 555 55 56">{{ $t("Hero-btn") }}</a>
         </button>
@@ -31,7 +25,7 @@
           class="sm:hidden flex items-center gap-3 text-white border-2 border-[#1976DC] rounded-md w-[198px] font-light font-['Poppins'] px-2 py-1"
         >
           <i class="bx bx-phone-call text-[#1976DC] text-[24px]"></i>
-          qo’ng’iroq qilish
+          {{ $t("Hero-brn-mobile") }}
         </a>
       </div>
     </div>
@@ -52,7 +46,7 @@
       <div class="flex justify-between items-center z-10">
         <div
           data-aos="fade-right"
-          data-aos-duration="3000"
+          data-aos-duration="1500"
           class="lg:flex hidden items-center"
         >
           <img src="/about_img/dev__ib.png" alt="" />
@@ -60,13 +54,13 @@
 
         <div
           data-aos="fade-left"
-          data-aos-duration="3000"
+          data-aos-duration="1500"
           class="flex flex-col gap-5"
         >
           <h3
             class="text-white lg:text-[45px] sm:text-[37px] text-[26px] font-['Roboto'] font-bold"
           >
-            Biz haqimizda
+            {{ $t("section4-title") }}
           </h3>
           <p
             class="lg:block hidden text-[#6D6D6D] font-['Poppins'] font-light w-[521px] mb-10"
@@ -87,17 +81,11 @@
           >
             <div class="flex items-center gap-5 text-white">
               <img src="/home/galochka.png" alt="" />
-              <span
-                >Sifatli <br />
-                xizmatlar</span
-              >
+              <span class="w-20">{{ $t("section4-info1") }}</span>
             </div>
             <div class="flex items-center gap-5 text-white">
               <img src="/home/lamp.png" alt="" />
-              <span
-                >Noodatiy <br />
-                loyihalar</span
-              >
+              <span class="w-20">{{ $t("section4-info2") }}</span>
             </div>
           </div>
 
@@ -114,7 +102,7 @@
           <button
             class="btn sm:w-[167px] w-[121px] sm:py-3 py-2 rounded-lg text-white"
           >
-            <nuxt-link to="/about">Ko'proq bilish</nuxt-link>
+            <nuxt-link to="/about">{{ $t("section4-btn") }}</nuxt-link>
           </button>
         </div>
       </div>
@@ -131,39 +119,39 @@
       <div class="flex flex-col gap-5">
         <h2
           data-aos="fade-down"
-          data-aos-duration="3000"
-          class="text-white lg:text-[45px] sm:text-[40px] text-[26px] font-['Roboto'] font-semibold sm:mb-20 mb-5"
+          data-aos-duration="1500"
+          class="text-white lg:text-[45px] sm:text-[40px] text-[26px] font-['Roboto'] font-semibold sm:mb-10 mb-5"
         >
-          Bizning ustun taraflarimiz
+          {{ $t("section3-title") }}
         </h2>
         <div
           data-aos="fade-up"
-          data-aos-duration="3000"
+          data-aos-duration="1500"
           class="lg:flex hidden text-white text-[21px] font-['Roboto'] font-medium flex justify-between gap-28 p-10 overflow-x-auto self-stretch"
         >
           <div
             class="cart-1 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5"
           >
             <img src="/home/Quality.png" width="70px" alt="" />
-            <h3>Sifatli xizmatlar</h3>
+            <h3>{{ $t("section3-card1-title") }}</h3>
           </div>
           <div
             class="cart-2 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5"
           >
             <img src="/home/Security Shield.png" width="70px" alt="" />
-            <h3>Xafsizlik tizimi</h3>
+            <h3>{{ $t("section3-card2-title") }}</h3>
           </div>
           <div
             class="cart-3 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5"
           >
             <img src="/home/Money Bag.png" width="70px" alt="" />
-            <h3>Hamyonbob narx</h3>
+            <h3>{{ $t("section3-card3-title") }}</h3>
           </div>
           <div
             class="cart-4 relative bg-[#323459] min-w-[270px] p-10 rounded-tl-[25px] rounded-br-[25px] flex flex-col gap-5"
           >
             <img src="/home/Quality.png" width="70px" alt="" />
-            <h3>Sifatli xizmatlar</h3>
+            <h3>{{ $t("section3-card4-title") }}</h3>
           </div>
         </div>
 
@@ -174,25 +162,25 @@
             class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5"
           >
             <img src="/home/Quality.png" width="50px" alt="" />
-            <h3>Sifatli xizmatlar</h3>
+            <h3>{{ $t("section3-card1-title") }}</h3>
           </div>
           <div
             class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5"
           >
             <img src="/home/Security Shield.png" width="50px" alt="" />
-            <h3>Xafsizlik tizimi</h3>
+            <h3>{{ $t("section3-card2-title") }}</h3>
           </div>
           <div
             class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5"
           >
             <img src="/home/Money Bag.png" width="50px" alt="" />
-            <h3>Hamyonbob narx</h3>
+            <h3>{{ $t("section3-card3-title") }}</h3>
           </div>
           <div
             class="bg-[#323459] md:w-[48%] w-[46%] text-center p-5 items-center text-[16px] rounded-lg flex flex-col gap-5"
           >
             <img src="/home/Quality.png" width="50px" alt="" />
-            <h3>Sifatli xizmatlar</h3>
+            <h3>{{ $t("section3-card4-title") }}</h3>
           </div>
         </div>
       </div>
@@ -209,21 +197,21 @@
       <div class="flex flex-col gap-16">
         <h2
           data-aos="fade-down"
-          data-aos-duration="3000"
+          data-aos-duration="1500"
           class="text-white lg:text-[45px] sm:text-[40px] text-[26px] font-['Roboto'] font-bold"
         >
-          Bizning barcha xizmatlar
+          {{ $t("section5-title") }}
         </h2>
         <div
           data-aos="fade-up"
-          data-aos-duration="3000"
-          class="flex flex-wrap justify-between gap-10"
+          data-aos-duration="1500"
+          class="flex flex-wrap justify-between gap-10 z-10"
         >
           <div
             class="2xl:w-[420px] lg:w-[385px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
           >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
-              Biznesni avtomatlashtirish
+              {{ $t("section5-card1-title") }}
             </h3>
             <p class="text-white font-['Poppins'] font-light">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -234,7 +222,7 @@
               <button
                 class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium"
               >
-                <nuxt-link to="/service">Ko'proq</nuxt-link>
+                <nuxt-link to="/service">{{ $t("section5-btn") }}</nuxt-link>
               </button>
               <button
                 @click="modalInfo"
@@ -338,7 +326,7 @@
             class="2xl:w-[420px] lg:w-[385px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
           >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
-              Biznesni avtomatlashtirish
+              {{ $t("section5-card1-title") }}
             </h3>
             <p class="text-white font-['Poppins'] font-light">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -349,7 +337,7 @@
               <button
                 class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium"
               >
-                <nuxt-link to="/service">Ko'proq</nuxt-link>
+                <nuxt-link to="/service">{{ $t("section5-btn") }}</nuxt-link>
               </button>
               <button
                 @click="modalInfo2"
@@ -450,10 +438,10 @@
             </div>
           </div>
           <div
-            class="2xl:w-[420px] lg:w-[385px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg z-10"
+            class="2xl:w-[420px] lg:w-[385px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
           >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
-              Biznesni avtomatlashtirish
+              {{ $t("section5-card1-title") }}
             </h3>
             <p class="text-white font-['Poppins'] font-light">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -464,7 +452,7 @@
               <button
                 class="btn w-[112px] py-2 rounded-lg text-white font-['Roboto'] font-medium"
               >
-                <nuxt-link to="/service">Ko'proq</nuxt-link>
+                <nuxt-link to="/service">{{ $t("section5-btn") }}</nuxt-link>
               </button>
               <button
                 @click="modalInfo3"
@@ -574,16 +562,20 @@
     <img class="ximoya__bg-red" src="/home/ximoya-bg-red.png" alt="foto" />
     <div class="container mx-auto p-5">
       <div class="ximoya__wrapper flex items-cneter justify-between">
-        <div data-aos="fade-right" data-aos-duration="3000" class="ximoya__img lg:block hidden">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          class="ximoya__img lg:block hidden"
+        >
           <img class="ximoya-img-1" src="/home/ximoya-img.png" alt="foto" />
           <img src="/about_img/form__ten.png" alt="foto" />
         </div>
         <div
           data-aos="fade-left"
-          data-aos-duration="3000"
+          data-aos-duration="1500"
           class="ximoya__content m-5 sm:m-0"
         >
-          <h2>Xavsiz servis</h2>
+          <h2>{{ $t("section6-title") }}</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -594,18 +586,18 @@
           <div class="ximoya__card">
             <h3>
               <img src="/home/ximoya--icon.png" alt="foto" />
-              Hakerlik hujumlaridan himoyalangan
+              {{ $t("section6-subtitle1") }}
             </h3>
             <h3>
               <img src="/home/ximoya--icon.png" alt="foto" />
-              Malumotlarning xafsizligi
+              {{ $t("section6-subtitle2") }}
             </h3>
             <h3>
               <img src="/home/ximoya--icon.png" alt="foto" />
-              Ishonchli hizmatlar
+              {{ $t("section6-subtitle3") }}
             </h3>
           </div>
-          <button>Bog’lanish</button>
+          <button>{{ $t("section6-btn") }}</button>
         </div>
       </div>
     </div>
@@ -615,12 +607,12 @@
     <div class="container mx-auto p-5">
       <div
         data-aos="fade-right"
-        data-aos-duration="3000"
+        data-aos-duration="1500"
         id="narx__wrapper"
         class="narx__wrapper"
       >
         <div class="narx__content sm:m-0 m-5">
-          <h2>Arzon Narxlar</h2>
+          <h2>{{ $t("section7-title") }}</h2>
           <h4 class="nr__p1" id="nr__p1">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -630,19 +622,16 @@
           </h4>
           <div class="narx__card">
             <h3>
-              <img src="/home/ximoya--icon.png" alt="icon" /> Onson tulov
-              usullari
+              <img src="/home/ximoya--icon.png" alt="icon" />{{ $t("section7-subtitle1") }}
             </h3>
             <h3>
-              <img src="/home/ximoya--icon.png" alt="icon" /> Onson tulov
-              usullari
+              <img src="/home/ximoya--icon.png" alt="icon" /> {{ $t("section7-subtitle2") }}
             </h3>
             <h3>
-              <img src="/home/ximoya--icon.png" alt="icon" /> Onson tulov
-              usullari
+              <img src="/home/ximoya--icon.png" alt="icon" /> {{ $t("section7-subtitle3") }}
             </h3>
           </div>
-          <button>Bog’lanish</button>
+          <button>{{ $t("section7-btn") }}</button>
         </div>
         <div class="narx__img lg:block hidden">
           <img class="narx-img1" src="/home/nerx-img.png" alt="foto" />
@@ -735,8 +724,6 @@
     <div class="container mx-auto p-5">
       <div class="form__wrapper">
         <form
-          data-aos="fade-left"
-          data-aos-duration="3000"
           class="form2 sm:w-[500px]"
         >
           <span id="form__h1"> Biz bilan bog’lanish </span>
@@ -745,10 +732,28 @@
             <label for="Xizmat">Xizmat turi * </label><input id="Xizmat" class="outline-none" required type="text"  >
             <label for="Maqsadingiz">Maqsadingiz *</label><input id="Maqsadingiz" class="outline-none" required type="text" >
           <button required class="form__btn" type="submit">Yuborish</button>I
+          <span id="form__h1">{{ $t("section8-title") }} </span>
+          <input
+            style=""
+            id="form__inp"
+            type="text"
+            placeholder="Ism familya *"
+            class="outline-none"
+          />
+          <input
+            type="text"
+            class="outline-none"
+            placeholder="Telefon raqamingiz *"
+          />
+          <input
+            type="text"
+            class="outline-none"
+            placeholder="Xizmat turi * "
+          />
+          <input type="text" class="outline-none" placeholder="Maqsadingiz *" />
+          <button required class="form__btn" type="submit">{{ $t("section8-btn") }}</button>I
         </form>
         <div
-          data-aos="fade-left"
-          data-aos-duration="3000"
           class="lg:flex flex-col items-center hidden"
         >
           <img src="/about_img/form__img1.png" alt="foto" />
