@@ -621,6 +621,86 @@
         position: absolute;
         z-index: 0;
     } */
+    #card__tr{
+        position: relative;
+        z-index: 5;
+    }
+    @media(max-width:580px){
+        .st__hero__content h1{
+            font-size: 31px;
+        }
+        
+
+        #form__h1 {
+            font-size: 20px;
+        }
+        .form__img{
+            display: none;
+        }
+        .form2{
+            padding: 62px 106px;
+            border-radius: 10px;
+            background: #323459;
+            box-shadow: 0px 0px 25px 0px rgba(255, 255, 255, 0.25);
+            
+        }
+        .form2 input{
+            width: 100%;
+        }
+        .form2{
+            width: 100%;
+        }
+    }
+    @media(max-width:470px){
+        .form2{
+            padding: 30px;
+        }
+    }
+    @media(max-width:320px){
+        .form2{
+            padding: 10px;
+        }
+    }
+    .form__btn{
+        display: inline-flex;
+        padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 5px;
+        background: linear-gradient(96deg, rgba(25, 118, 220, 0.95) 19%, rgba(231, 101, 20, 0.95) 88.27%), #FFF; 
+        color: #FFF;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;   
+    }
+    .team__wrapper{
+        margin-left: 70px;
+    }
+    .st__hero__content{
+        position: relative;
+        z-index: 2;
+    }
+    .dev__av__content h3{
+        color: #FFF;
+        font-size: 37px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 25px;
+    }
+    .dev__av__content p{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 62px;
+        width: 521px;
+        }
+    .dev__av__content button{
+        color: #FFF;
+
 #card__tr {
   position: relative;
   z-index: 5;
@@ -633,6 +713,7 @@
     margin: 0 auto;
     width: 480px;
   }
+
 
   #form__h1 {
     font-size: 20px;
@@ -722,7 +803,69 @@
 }
 .dev__av__content button {
   color: #fff;
-
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        display: inline-flex;
+        padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 5px;
+        background: linear-gradient(96deg, rgba(25, 118, 220, 0.95) 19%, rgba(231, 101, 20, 0.95) 88.27%), #FFF;
+    }
+    .dev__ab{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        margin-bottom: 125px;
+    }
+    @media(max-width:990px){
+        .dev__ab{
+            flex-direction: column;
+            gap: 50px;
+        }
+    }
+    @media(max-width:580px){
+        .team__wrapper{
+            margin-left: 0;
+        }
+        .dev__av__content{
+            margin-left: 10px;
+        }
+        .dev__av__img{
+            display: none;
+        }
+        .dev__av__content p{
+            width: auto;
+            margin-bottom: 20px;
+        }
+        .dev__av__content button{
+            display: none;
+        }
+        
+    }
+    @media(max-width:930px){
+        .form__img{
+            display: none;
+        }
+    }
+    .form__wrapper form{
+        margin-left: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    label{
+        cursor: pointer;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
   font-size: 21px;
   font-style: normal;
   font-weight: 500;
