@@ -4,6 +4,7 @@
     "header-service":"Xizmatlar",
     "header-portfolio":"Portfolio",
     "header-contact":"Bog`lanish",
+    "Hero-brn-mobile": "Qo'ng'iroq qilish",
 
     "Hero-title":"DevoSoft -  vaqtni qadirlovchilar uchun",
     "Hero-btn":"Bog`lanish",
@@ -15,6 +16,8 @@
     "section3-card4-title":"Sifatli xizmatlar",
 
     "section4-title":"Biz haqimizda",
+    "section4-info1":"Sifatli xizmatlar",
+    "section4-info2":"Noodatiy loyihalar",
     "section4-btn":"Ko’proq bilish",
 
     "section5-title":"Bizning barcha xizmatlar",

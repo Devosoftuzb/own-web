@@ -7,19 +7,22 @@
 
     "Hero-title":"DevoSoft - for those who value time",
     "Hero-btn":"Contact",
+    "Hero-brn-mobile": "Make a call",
 
     "section3-title":"Our strengths",
     "section3-card1-title":"Quality services",
-    "section3-card2-title":"Система безопасности",
+    "section3-card2-title":"Security of the system",
     "section3-card3-title":"Safety system",
     "section3-card4-title":"Quality services",
 
     "section4-title":"About us",
-    "section4-btn":"learn more",
+    "section4-info1":"Quality services",
+    "section4-info2":"Unusual projects",
+    "section4-btn":"Learn more",
 
     "section5-title":"All our services",
     "section5-card1-title":"Business automation",
-    "section5-btn":"learn more",
+    "section5-btn":"Learn more",
 
     "section6-title":"Safe service",
     "section6-subtitle1":"Protected from hacker attacks",

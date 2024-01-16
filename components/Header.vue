@@ -3,8 +3,10 @@
     <div class="container mx-auto p-5 border-b">
       <nav class="hidden lg:flex w-full flex items-center justify-between">
         <div>
-          <NuxtLink :to="localPath('/')">
-            <img src="/Logo.png" alt="" />
+          <NuxtLink
+            :to="localPath('/')"
+            class="bg-[url('/Logo.png')] bg-no-repeat bg-center bg-cover w-[170px] h-[80px] block"
+          >
           </NuxtLink>
         </div>
         <div>
@@ -168,27 +170,27 @@
               </div>
             </div>
             <ul :class="bell ? 'hidden' : 'flex flex-col items-center gap-8'">
-              <li class="hover:font-bold">
+              <li @click="modalmenu" class="hover:font-bold">
                 <NuxtLink :to="localPath('/')">{{
                   $t("header-home")
                 }}</NuxtLink>
               </li>
-              <li class="hover:font-bold">
+              <li @click="modalmenu" class="hover:font-bold">
                 <NuxtLink :to="localPath('/about')">{{
                   $t("header-about")
                 }}</NuxtLink>
               </li>
-              <li class="hover:font-bold">
+              <li @click="modalmenu" class="hover:font-bold">
                 <NuxtLink :to="localPath('/service')">{{
                   $t("header-service")
                 }}</NuxtLink>
               </li>
-              <li class="hover:font-bold">
+              <li @click="modalmenu" class="hover:font-bold">
                 <NuxtLink :to="localPath('/portfolio')">{{
                   $t("header-portfolio")
                 }}</NuxtLink>
               </li>
-              <li class="hover:font-bold">
+              <li @click="modalmenu" class="hover:font-bold">
                 <NuxtLink :to="localPath('/contact')">{{
                   $t("header-contact")
                 }}</NuxtLink>
@@ -275,9 +277,9 @@ const modalmenu = () => {
 
 const localesKey = ref("/uz-UZ");
 const localesKey2 = ref("/ru-RU");
-const langName_1 = ref("🇺🇸 Eng")
-const langName_2 = ref("🇺🇿 Uzb")
-const langName_3 = ref("🇷🇺 Rus")
+const langName_1 = ref("Eng");
+const langName_2 = ref("Uzb");
+const langName_3 = ref("Rus");
 
 onMounted(() => {
   window.addEventListener("scroll", function () {
@@ -286,7 +288,7 @@ onMounted(() => {
     header.classList.toggle("headerScroll", window.scrollY > 0);
     container.classList.toggle("border-none", window.scrollY > 0);
   });
-  
+
   const router = useRouter();
   const key = ref(router.currentRoute._value.path);
   console.log(router.currentRoute._value.path);
@@ -294,25 +296,23 @@ onMounted(() => {
   if (key.value == "/uz-UZ") {
     localesKey.value = "/";
     localesKey2.value = "/ru-RU";
-    langName_1.value = "🇺🇿 Uzb";
-    langName_2.value = "🇺🇸 Eng";
-    langName_3.value = "🇷🇺 Rus";
+    langName_1.value = "Uzb";
+    langName_2.value = "Eng";
+    langName_3.value = "Rus";
   }
-
-  if (key.value == "/ru-RU") {
+  else if (key.value == "/ru-RU") {
     localesKey.value = "/";
     localesKey2.value = "/uz-UZ";
-    langName_1.value = "🇷🇺 Rus";
-    langName_2.value = "🇺🇸 Eng";
-    langName_3.value = "🇺🇿 Uzb";
+    langName_1.value = "Rus";
+    langName_2.value = "Eng";
+    langName_3.value = "Uzb";
   }
-
-  if (key.value == "/") {
+  else {
     localesKey.value = "/uz-UZ";
     localesKey2.value = "/ru-RU";
-    langName_1.value = "🇺🇸 Eng";
-    langName_2.value = "🇺🇿 Uzb";
-    langName_3.value = "🇷🇺 Rus";
+    langName_1.value = "Eng";
+    langName_2.value = "Uzb";
+    langName_3.value = "Rus";
   }
 });
 </script>
