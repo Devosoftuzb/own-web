@@ -206,10 +206,10 @@
                     <span     id="form__h1" >
                         Biz bilan bog’lanish
                     </span>
-                    <input required style="" id="form__inp" type="text" class="outline-none" placeholder="Ism familya *">
-                    <input required type="text" class="outline-none" placeholder="Telefon raqamingiz *">
-                    <input required type="text" class="outline-none" placeholder="Xizmat turi * " >
-                    <input required type="text" class="outline-none" placeholder="Maqsadingiz *">
+                    <label for="form__inp" >Ism familya *</label><input   class="outline-none"  required style="" id="form__inp" type="text" >
+                     <label for=" tel">Telefon raqamingiz</label><input id="tel"  class="outline-none" required type="text" >
+                     <label for="Xizmat">Xizmat turi * </label><input id="Xizmat" class="outline-none" required type="text"  >
+                     <label for="Maqsadingiz">Maqsadingiz *</label><input id="Maqsadingiz" class="outline-none" required type="text" >
                     <button required class="form__btn" type="submit">
                         Yuborish
                     </button>
@@ -570,11 +570,13 @@
         height: 50px;
         padding: 18px;
         margin-bottom: 50px;
+        width: 100%;
     }
     .form__wrapper{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 200px;
     }
     .form__bg1{
         position: absolute;
@@ -605,9 +607,10 @@
             margin: 0 auto;
             width: 480px;
         }
+        
 
         #form__h1 {
-            font-size: 30px;
+            font-size: 20px;
         }
         .form__img{
             display: none;
@@ -628,7 +631,7 @@
     }
     @media(max-width:480px){
         .form2{
-            width: 380px;
+            width: 100%;
         }
     }
     @media(max-width:380px){
@@ -735,5 +738,23 @@
             display: none;
         }
         
+    }
+    @media(max-width:930px){
+        .form__img{
+            display: none;
+        }
+    }
+    .form__wrapper form{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    label{
+        cursor: pointer;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 </style>

@@ -23,7 +23,7 @@
                     </p>
                     <div class="card__btn__wrapper">
                         <button>
-                            <NuxtLink to="1">
+                            <NuxtLink to="service/1">
                             Ko’proq
                             </NuxtLink>
                         </button>
@@ -87,11 +87,11 @@
                     <span     id="form__h1" >
                         Biz bilan bog’lanish
                     </span>
-                    <input required style="" id="form__inp" type="text" placeholder="Ism familya *">
-                    <input required type="text" placeholder="Telefon raqamingiz *">
-                    <input required type="text" placeholder="Xizmat turi * " >
-                    <input required type="text" placeholder="Maqsadingiz *">
-                    <button required class="form__btn" type="submit">
+                    <label for="form__inp" >Ism familya *</label><input   class="outline-none"  required style="" id="form__inp" type="text" >
+                     <label for=" tel">Telefon raqamingiz</label><input id="tel"  class="outline-none" required type="text" >
+                     <label for="Xizmat">Xizmat turi * </label><input id="Xizmat" class="outline-none" required type="text"  >
+                     <label for="Maqsadingiz">Maqsadingiz *</label><input id="Maqsadingiz" class="outline-none" required type="text" >
+                     <button required class="form__btn" type="submit">
                         Yuborish
                     </button>
                 </form>
@@ -209,7 +209,7 @@
             border-radius: 10px;
             background: #323459;
             padding: 22px 32px;
-            width: 524px;
+            width: 100%;
 
         }
         .sr__hero__card h3{
@@ -226,7 +226,7 @@
             font-style: normal;
             font-weight: 400;
             line-height: normal;
-            width: 524px;
+            /* width: 524px; */
         }
         .sr__hero__card button{
             color: #FFF;
@@ -289,11 +289,11 @@
                 margin: 0 auto  ;
             }
            .sr__hero__card__contetn{
-            width: 300px;
+            width: 100%;
             height: auto;
            }
            .sr__hero__card{
-                width:300px ;
+                width:100% ;
             }
            .sr__hero__card__img{
             left: -50px;
@@ -342,8 +342,8 @@
                 width: auto;
             }
             .sr__hero__card{
-                padding: 10px;
-                width: 250px;
+                padding: 20px;
+            
             }
         }
         @media(max-width:1025px){

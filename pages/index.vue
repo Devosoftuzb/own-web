@@ -726,6 +726,12 @@
         <form
           class="form2 sm:w-[500px]"
         >
+          <span id="form__h1"> Biz bilan bog’lanish </span>
+          <label for="form__inp" >Ism familya *</label><input   class="outline-none"  required style="" id="form__inp" type="text" >
+           <label for=" tel">Telefon raqamingiz</label><input id="tel"  class="outline-none" required type="text" >
+            <label for="Xizmat">Xizmat turi * </label><input id="Xizmat" class="outline-none" required type="text"  >
+            <label for="Maqsadingiz">Maqsadingiz *</label><input id="Maqsadingiz" class="outline-none" required type="text" >
+          <button required class="form__btn" type="submit">Yuborish</button>I
           <span id="form__h1">{{ $t("section8-title") }} </span>
           <input
             style=""
