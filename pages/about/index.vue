@@ -603,10 +603,6 @@
         .st__hero__content h1{
             font-size: 31px;
         }
-        .form2{
-            margin: 0 auto;
-            width: 480px;
-        }
         
 
         #form__h1 {
@@ -623,25 +619,10 @@
             
         }
         .form2 input{
-            width: auto;
-        }
-        .form__bg2{
-            right: -10px;
-        }
-    }
-    @media(max-width:480px){
-        .form2{
             width: 100%;
         }
-    }
-    @media(max-width:380px){
         .form2{
-            width: 280px;
-        }
-    }
-    @media(max-width:700px){
-        .form__bg2{
-            right: 0px;
+            width: 100%;
         }
     }
     @media(max-width:470px){
@@ -745,6 +726,7 @@
         }
     }
     .form__wrapper form{
+        margin-left: 0;
         margin-left: 20px;
         margin-right: 20px;
     }
