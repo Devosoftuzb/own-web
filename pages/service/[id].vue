@@ -53,7 +53,7 @@
             <h1 class="text=[#FFF]">
                 Buyurtma berish
             </h1>
-            <form>
+            <form class="contact2__form">
                 <div class="form__grid">
                     <input type="text" placeholder="Tashkilot nomi *" required>
                     <input type="text" placeholder="Ism familya *" required>
@@ -155,6 +155,8 @@
         margin: 0 auto;
         position: relative;
         z-index: 2;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .contact2 form input{
         color: #FFF;
@@ -315,7 +317,8 @@
     @media(max-width:580px){
         .contact2 form{
             width: auto;
-            margin: 20px 0;
+            margin-left: 10px;
+            margin-right: 10px;
         }
         .contact2 form button{
             width: auto;
