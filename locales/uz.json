@@ -2,6 +2,7 @@
     "header-home":"Bosh sahifa",
     "header-about":"Biz Haqimizda",
     "header-service":"Xizmatlar",
+    "header-portfolio":"Portfolio",
     "header-contact":"Bog`lanish",
 
     "Hero-title":"DevoSoft -  vaqtni qadirlovchilar uchun",
@@ -44,6 +45,7 @@
     "footer-link-home":"Bosh sahifa",
     "footer-link-about":"Biz haqimizda",
     "footer-link-service":"Xizmatlar",
+    "footer-link-portfolio":"Portfolio",
     "footer-link-contact":"Bog’lanish",
     "footer-info":"Malumot uchun",
     "footer-location":"Guliston shahar Yoshlar markazi Manzil:6-mavze",

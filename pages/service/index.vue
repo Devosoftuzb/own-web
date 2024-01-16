@@ -3,7 +3,7 @@
         <div class="container">  
             <img class="sr__hero__bg1" src="/service/sr__hero__bg.png" alt="foto">
             <img class="sr__hero__bg2" src="/service/sr__hero__bg2.png" alt="foto">
-            <h1   data-aos="fade-right"
+            <h1   data-aos="fade-down"
                 data-aos-duration="3000" class="text-[#FFF]">
                 Bizning xizmat turlarimiz
             </h1>

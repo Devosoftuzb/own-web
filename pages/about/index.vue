@@ -24,18 +24,18 @@
     <section class="about__team">
         <div class="container">
            <div class="dev__ab">
-                <div data-aos-duration="2000" data-aos="fade-up"
+                <div data-aos-duration="2000" data-aos="fade-right"
                     data-aos-anchor-placement="center-center" class="dev__av__img">
                     <img src="/about_img/dev__ib.png" alt="foto">
                 </div>
                 <div class="dev__av__content">
-                    <h3 data-aos-duration="1500"  data-aos="zoom-in-left" class="text-[#FFF]">
+                    <h3 data-aos-duration="1500"  data-aos="fade-left" class="text-[#FFF]">
                         Devosoft haqida
                     </h3>
-                    <p data-aos-duration="2000"  data-aos="zoom-in-left" class="text-[#6D6D6D]">
+                    <p data-aos-duration="2000"  data-aos="fade-left" class="text-[#6D6D6D]">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
                     </p>
-                    <button data-aos-duration="3000"  data-aos="zoom-in-left">
+                    <button data-aos-duration="3000"  data-aos="fade-left">
                         Ko’proq bilish
                     </button>
                 </div>
@@ -195,7 +195,7 @@
         </div>
     </section>
     <section class="form">
-        <div class="container">
+        <div class="container mx-auto p-5">
             <img  id="bg12" class="form__bg1" src="/about_img/about__hero__bg.png" alt="foto">
             
             <img class="form__bg2" src="/about_img/about__hero__bg2.png" alt="foto">
@@ -206,10 +206,10 @@
                     <span     id="form__h1" >
                         Biz bilan bog’lanish
                     </span>
-                    <input required style="" id="form__inp" type="text" placeholder="Ism familya *">
-                    <input required type="text" placeholder="Telefon raqamingiz *">
-                    <input required type="text" placeholder="Xizmat turi * " >
-                    <input required type="text" placeholder="Maqsadingiz *">
+                    <input required style="" id="form__inp" type="text" class="outline-none" placeholder="Ism familya *">
+                    <input required type="text" class="outline-none" placeholder="Telefon raqamingiz *">
+                    <input required type="text" class="outline-none" placeholder="Xizmat turi * " >
+                    <input required type="text" class="outline-none" placeholder="Maqsadingiz *">
                     <button required class="form__btn" type="submit">
                         Yuborish
                     </button>
@@ -217,7 +217,7 @@
                 <div data-aos-duration="1500" data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-back"
                     data-aos-delay="300"
-                    data-aos-offset="0" class="form__img">
+                    data-aos-offset="0" class="form__img lg:block hidden">
                     <img src="/about_img/form__img1.png" alt="foto">
                     <img src="/about_img/form__ten.png" alt="foto">
                 </div>
@@ -540,19 +540,19 @@
     .form{
         position: relative;
         z-index: 0;
-        margin-bottom: 150px;
+        margin-bottom: 100px;
     }
      #form__h1{
             display: block;
             color: #FFF;
-            font-size: 37px;
+            font-size: 40px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
             margin-bottom: 55px;
         }
         .form{
-            margin-top: 120px;
+            margin-top: 100px;
         }
     .form input{
         color: none;
@@ -569,7 +569,6 @@
         border-bottom: 2px solid white;
         height: 50px;
         padding: 18px;
-        width: 280px;
         margin-bottom: 50px;
     }
     .form__wrapper{
@@ -605,6 +604,10 @@
         .form2{
             margin: 0 auto;
             width: 480px;
+        }
+
+        #form__h1 {
+            font-size: 30px;
         }
         .form__img{
             display: none;

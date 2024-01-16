@@ -1,9 +1,9 @@
 <template>
-  <header class="bg-transparent fixed top-0 z-10 w-full">
+  <header class="bg-transparent fixed top-0 z-20 w-full">
     <div class="container mx-auto p-5 border-b">
       <nav class="hidden lg:flex w-full flex items-center justify-between">
         <div>
-          <NuxtLink to="/">
+          <NuxtLink :to="localPath('/')">
             <img src="/Logo.png" alt="" />
           </NuxtLink>
         </div>
@@ -12,28 +12,35 @@
             class="flex items-center gap-8 text-[18px] text-white font-['Poppins'] font-light"
           >
             <li class="hover:font-bold">
-              <NuxtLink to="/">Home</NuxtLink>
+              <NuxtLink :to="localPath('/')">{{ $t("header-home") }}</NuxtLink>
             </li>
             <li class="hover:font-bold">
-              <NuxtLink to="/about">About</NuxtLink>
+              <NuxtLink :to="localPath('/about')">{{
+                $t("header-about")
+              }}</NuxtLink>
             </li>
             <li class="hover:font-bold">
-              <NuxtLink to="/service">Service</NuxtLink>
+              <NuxtLink :to="localPath('/service')">{{
+                $t("header-service")
+              }}</NuxtLink>
             </li>
             <li class="hover:font-bold">
-              <NuxtLink to="/portfolio">Portfolio</NuxtLink>
+              <NuxtLink :to="localPath('/portfolio')">{{
+                $t("header-portfolio")
+              }}</NuxtLink>
             </li>
             <li class="hover:font-bold">
-              <NuxtLink to="/contact">Contact</NuxtLink>
+              <NuxtLink :to="localPath('/contact')">{{
+                $t("header-contact")
+              }}</NuxtLink>
             </li>
             <li class="pl-5 border-l py-5">
               <div class="relative">
                 <button
                   @click="modallang"
-                  
                   class="flex items-end text-white hover:font-bold font-['Poppins'] font-light cursor-pointer"
                 >
-                  <span id="langName">Eng</span>
+                  <span>{{ langName_1 }}</span>
                   <i
                     :class="
                       lang
@@ -45,7 +52,7 @@
                 <div
                   :class="
                     lang
-                      ? 'absolute z-10 right-2 top-8 rounded-l-lg rounded-b-lg bg-[#323459] flex flex-col'
+                      ? 'absolute z-10 right-2 top-8 w-[100px] rounded-l-lg rounded-b-lg bg-[#323459] flex flex-col'
                       : 'hidden'
                   "
                 >
@@ -53,13 +60,13 @@
                     @click="modallang"
                     class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
                   >
-                    <a :href="localesKey" id="langName2">Uzb</a>
+                    <a :href="localesKey">{{ langName_2 }}</a>
                   </button>
                   <button
                     @click="modallang"
                     class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
                   >
-                    <a :href="localesKey2" id="langName3">Rus</a>
+                    <a :href="localesKey2">{{ langName_3 }}</a>
                   </button>
                 </div>
               </div>
@@ -147,7 +154,7 @@
               <div
                 :class="
                   bell
-                    ? 'absolute right-14 border rounded-l-lg rounded-b-lg top-0 bg-[#323459] flex flex-col'
+                    ? 'absolute right-14 border w-[100px] rounded-l-lg rounded-b-lg top-0 bg-[#323459] flex flex-col'
                     : 'hidden'
                 "
               >
@@ -162,19 +169,29 @@
             </div>
             <ul :class="bell ? 'hidden' : 'flex flex-col items-center gap-8'">
               <li class="hover:font-bold">
-                <NuxtLink to="/" @click="modalmenu">Home</NuxtLink>
+                <NuxtLink :to="localPath('/')">{{
+                  $t("header-home")
+                }}</NuxtLink>
               </li>
               <li class="hover:font-bold">
-                <NuxtLink to="/about" @click="modalmenu">About</NuxtLink>
+                <NuxtLink :to="localPath('/about')">{{
+                  $t("header-about")
+                }}</NuxtLink>
               </li>
               <li class="hover:font-bold">
-                <NuxtLink to="/service" @click="modalmenu">Service</NuxtLink>
+                <NuxtLink :to="localPath('/service')">{{
+                  $t("header-service")
+                }}</NuxtLink>
               </li>
               <li class="hover:font-bold">
-                <NuxtLink to="/portfolio" @click="modalmenu">Portfolio</NuxtLink>
+                <NuxtLink :to="localPath('/portfolio')">{{
+                  $t("header-portfolio")
+                }}</NuxtLink>
               </li>
               <li class="hover:font-bold">
-                <NuxtLink to="/contact" @click="modalmenu">Contact</NuxtLink>
+                <NuxtLink :to="localPath('/contact')">{{
+                  $t("header-contact")
+                }}</NuxtLink>
               </li>
             </ul>
           </div>
@@ -190,7 +207,7 @@
               class="flex items-center gap-4 text-white hover:font-bold font-['Poppins'] font-light cursor-pointer border p-1 rounded-lg border-[#1976DC]"
             >
               <i class="bx bx-world text-[#1976DC]"></i>
-              UZ
+              <span>{{ langName_1 }}</span>
             </button>
             <div
               :class="
@@ -203,13 +220,13 @@
                 @click="modallang"
                 class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
               >
-                ENG
+                <a :href="localesKey">{{ langName_2 }}</a>
               </button>
               <button
                 @click="modallang"
                 class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
               >
-                RU
+                <a :href="localesKey2">{{ langName_3 }}</a>
               </button>
             </div>
           </div>
@@ -223,6 +240,8 @@
   
   <script setup>
 import { ref, onMounted } from "vue";
+const localPath = useLocalePath();
+
 const lang = ref(false);
 const modallang = () => {
   if (bell.value) {
@@ -254,9 +273,11 @@ const modalmenu = () => {
   }
 };
 
-const localesKey = ref("/uz-UZ")
-const localesKey2 = ref("ru-RU")
-
+const localesKey = ref("/uz-UZ");
+const localesKey2 = ref("/ru-RU");
+const langName_1 = ref("🇺🇸 Eng")
+const langName_2 = ref("🇺🇿 Uzb")
+const langName_3 = ref("🇷🇺 Rus")
 
 onMounted(() => {
   window.addEventListener("scroll", function () {
@@ -265,29 +286,34 @@ onMounted(() => {
     header.classList.toggle("headerScroll", window.scrollY > 0);
     container.classList.toggle("border-none", window.scrollY > 0);
   });
-
-  const router = useRouter()
   
-
+  const router = useRouter();
+  const key = ref(router.currentRoute._value.path);
   console.log(router.currentRoute._value.path);
 
-  const key = ref(router.currentRoute._value.path);
-  if(key.value == '/uz-UZ'){
-    localesKey.value = "/"
-    localesKey2.value = "/ru-RU"
-    langName.textContent = "Uzb"
-    langName2.textContent = "Eng"
-    langName3.textContent = "Rus"
+  if (key.value == "/uz-UZ") {
+    localesKey.value = "/";
+    localesKey2.value = "/ru-RU";
+    langName_1.value = "🇺🇿 Uzb";
+    langName_2.value = "🇺🇸 Eng";
+    langName_3.value = "🇷🇺 Rus";
   }
 
-  if(key.value == '/ru-RU'){
-    localesKey.value = "/"
-    localesKey2.value = "/uz-UZ"
-    langName.textContent = "Rus"
-    langName2.textContent = "Eng"
-    langName3.textContent = "Uzb"
+  if (key.value == "/ru-RU") {
+    localesKey.value = "/";
+    localesKey2.value = "/uz-UZ";
+    langName_1.value = "🇷🇺 Rus";
+    langName_2.value = "🇺🇸 Eng";
+    langName_3.value = "🇺🇿 Uzb";
   }
-  
+
+  if (key.value == "/") {
+    localesKey.value = "/uz-UZ";
+    localesKey2.value = "/ru-RU";
+    langName_1.value = "🇺🇸 Eng";
+    langName_2.value = "🇺🇿 Uzb";
+    langName_3.value = "🇷🇺 Rus";
+  }
 });
 </script>
   

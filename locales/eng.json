@@ -2,6 +2,7 @@
     "header-home":"Home",
     "header-about":"About",
     "header-service":"Service",
+    "header-portfolio":"Portfolio",
     "header-contact":"Contact",
 
     "Hero-title":"DevoSoft - for those who value time",
@@ -44,6 +45,7 @@
     "footer-link-home":"Home",
     "footer-link-about":"About",
     "footer-link-service":"Service",
+    "footer-link-portfolio":"Portfolio",
     "footer-link-contact":"Contact",
     "footer-info":" Information",
     "footer-location":"Gulistan City Youth Center Address: 6th block",

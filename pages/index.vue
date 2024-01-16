@@ -83,7 +83,7 @@
           </p>
 
           <div
-            class="hidden sm:flex items-center gap-10 border-l-[5px] p-5 border-[#E76514] mb-10"
+            class="hidden sm:flex items-center gap-10 border-l-[5px] p-5 border-[#E76514] lg:mb-10 mt-5"
           >
             <div class="flex items-center gap-5 text-white">
               <img src="/home/galochka.png" alt="" />
@@ -210,7 +210,7 @@
         <h2
           data-aos="fade-down"
           data-aos-duration="3000"
-          class="text-white text-[45px] font-['Roboto'] font-bold"
+          class="text-white lg:text-[45px] sm:text-[40px] text-[26px] font-['Roboto'] font-bold"
         >
           Bizning barcha xizmatlar
         </h2>
@@ -220,7 +220,7 @@
           class="flex flex-wrap justify-between gap-10"
         >
           <div
-            class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
+            class="2xl:w-[420px] lg:w-[385px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
           >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               Biznesni avtomatlashtirish
@@ -335,7 +335,7 @@
             </div>
           </div>
           <div
-            class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
+            class="2xl:w-[420px] lg:w-[385px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
           >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               Biznesni avtomatlashtirish
@@ -450,7 +450,7 @@
             </div>
           </div>
           <div
-            class="2xl:w-[420px] w-[385px] bg-[#323459] flex flex-col gap-3 p-5 rounded-lg z-10"
+            class="2xl:w-[420px] lg:w-[385px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg z-10"
           >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               Biznesni avtomatlashtirish
@@ -569,19 +569,19 @@
     </div>
   </section>
 
-  <section class="ximoya">
+  <section class="ximoya lg:my-40 sm:my-20">
     <img class="ximoya__bg-blue" src="/home/ximoya-bg-blue.png" alt="foto" />
     <img class="ximoya__bg-red" src="/home/ximoya-bg-red.png" alt="foto" />
-    <div class="container">
-      <div class="ximoya__wrapper">
-        <div data-aos="fade-right" data-aos-duration="3000" class="ximoya__img">
+    <div class="container mx-auto p-5">
+      <div class="ximoya__wrapper flex items-cneter justify-between">
+        <div data-aos="fade-right" data-aos-duration="3000" class="ximoya__img lg:block hidden">
           <img class="ximoya-img-1" src="/home/ximoya-img.png" alt="foto" />
           <img src="/about_img/form__ten.png" alt="foto" />
         </div>
         <div
           data-aos="fade-left"
           data-aos-duration="3000"
-          class="ximoya__content m-5"
+          class="ximoya__content m-5 sm:m-0"
         >
           <h2>Xavsiz servis</h2>
           <p>
@@ -612,14 +612,14 @@
   </section>
 
   <section class="narx">
-    <div class="container">
+    <div class="container mx-auto p-5">
       <div
         data-aos="fade-right"
         data-aos-duration="3000"
         id="narx__wrapper"
         class="narx__wrapper"
       >
-        <div class="narx__content m-5">
+        <div class="narx__content sm:m-0 m-5">
           <h2>Arzon Narxlar</h2>
           <h4 class="nr__p1" id="nr__p1">
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -644,7 +644,7 @@
           </div>
           <button>Bog’lanish</button>
         </div>
-        <div class="narx__img">
+        <div class="narx__img lg:block hidden">
           <img class="narx-img1" src="/home/nerx-img.png" alt="foto" />
           <img src="/about_img/about__hero_ten.png" alt="foto" />
         </div>
@@ -732,12 +732,12 @@
   </section>
 
   <section class="form">
-    <div class="container">
+    <div class="container mx-auto p-5">
       <div class="form__wrapper">
         <form
           data-aos="fade-left"
           data-aos-duration="3000"
-          class="form2 w-[500px]"
+          class="form2 sm:w-[500px]"
         >
           <span id="form__h1"> Biz bilan bog’lanish </span>
           <input
@@ -745,16 +745,17 @@
             id="form__inp"
             type="text"
             placeholder="Ism familya *"
+            class="outline-none"
           />
-          <input type="text" placeholder="Telefon raqamingiz *" />
-          <input type="text" placeholder="Xizmat turi * " />
-          <input type="text" placeholder="Maqsadingiz *" />
+          <input type="text" class="outline-none" placeholder="Telefon raqamingiz *" />
+          <input type="text" class="outline-none" placeholder="Xizmat turi * " />
+          <input type="text" class="outline-none" placeholder="Maqsadingiz *" />
           <button required class="form__btn" type="submit">Yuborish</button>I
         </form>
         <div
           data-aos="fade-left"
           data-aos-duration="3000"
-          class="sm:flex flex-col items-center hidden"
+          class="lg:flex flex-col items-center hidden"
         >
           <img src="/about_img/form__img1.png" alt="foto" />
           <img src="/about_img/form__ten.png" alt="foto" />
@@ -896,8 +897,6 @@ const modalInfo3 = () => (info3.value = !info3.value);
 // начало sectiona ximoya
 .ximoya {
   position: relative;
-  margin-top: 154px;
-  margin-bottom: 183px;
 }
 
 .ximoya__content h2 {
@@ -934,11 +933,12 @@ const modalInfo3 = () => (info3.value = !info3.value);
   padding-left: 17px;
 }
 
-.ximoya__wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+// .ximoya__wrapper {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   border: 2px solid red;
+// }
 
 .ximoya__content button {
   border-radius: 5px;
@@ -983,19 +983,19 @@ const modalInfo3 = () => (info3.value = !info3.value);
 }
 
 @media (max-width: 1281px) {
-  .ximoya__wrapper {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  // .ximoya__wrapper {
+  //   flex-wrap: wrap;
+  //   justify-content: center;
+  // }
 
-  .narx__wrapper {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  // .narx__wrapper {
+  //   flex-wrap: wrap;
+  //   justify-content: center;
+  // }
 
-  #narx__wrapper {
-    justify-content: center;
-  }
+  // #narx__wrapper {
+  //   justify-content: center;
+  // }
 }
 
 @media (max-width: 580px) {
@@ -1025,9 +1025,9 @@ const modalInfo3 = () => (info3.value = !info3.value);
 }
 
 // Narx section
-.narx {
-  margin-bottom: 125px;
-}
+// .narx {
+//   margin-bottom: 15px;
+// }
 
 .narx__content h2 {
   color: #fff;

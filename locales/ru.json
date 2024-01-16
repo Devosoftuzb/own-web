@@ -2,6 +2,7 @@
     "header-home":"Глава",
     "header-about":"Про нас",
     "header-service":"Услуги",
+    "header-portfolio":"Портфолио",
     "header-contact":"Контакты",
 
     "Hero-title":"DevoSoft - для тех кто ценит время",
@@ -45,6 +46,7 @@
     "footer-link-home":"Глава",
     "footer-link-about":"Про нас",
     "footer-link-service":"Услуги",
+    "footer-link-portfolio":"Портфолио",
     "footer-link-contact":"Контакты",
     "footer-info":"Информация",
     "footer-location":"Гулистанский городской молодежный центр Адрес: 6 квартал",
