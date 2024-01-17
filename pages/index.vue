@@ -206,7 +206,11 @@
           class="flex flex-wrap justify-between gap-10 z-10"
         >
           <div
-            class="2xl:w-[420px] lg:w-[385px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
+            :class="
+              info
+                ? '2xl:w-[420px] lg:w-[385px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg'
+                : '2xl:w-[420px] lg:w-[385px] h-[260px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg'
+            "
           >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               {{ $t("section5-card1-title") }}
@@ -321,7 +325,11 @@
             </div>
           </div>
           <div
-            class="2xl:w-[420px] lg:w-[385px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
+            :class="
+              info2
+                ? '2xl:w-[420px] lg:w-[385px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg'
+                : '2xl:w-[420px] lg:w-[385px] h-[260px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg'
+            "
           >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               {{ $t("section5-card1-title") }}
@@ -436,7 +444,11 @@
             </div>
           </div>
           <div
-            class="2xl:w-[420px] lg:w-[385px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg"
+            :class="
+              info3
+                ? '2xl:w-[420px] lg:w-[385px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg'
+                : '2xl:w-[420px] lg:w-[385px] h-[260px] w-full bg-[#323459] flex flex-col gap-3 p-5 rounded-lg'
+            "
           >
             <h3 class="text-white text-[26px] font-['Roboto'] font-bold">
               {{ $t("section5-card1-title") }}
@@ -742,8 +754,8 @@
           <label for="Maqsadingiz">{{ $t("section8-form-maqsad") }}</label
           ><input id="Maqsadingiz" class="outline-none" required type="text" />
           <button required class="form__btn" type="submit">
-            {{ $t("section8-btn") }}</button
-          >
+            {{ $t("section8-btn") }}
+          </button>
         </form>
         <div class="lg:flex flex-col items-center hidden">
           <img src="/about_img/form__img1.png" alt="foto" />
