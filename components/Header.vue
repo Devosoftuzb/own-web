@@ -37,41 +37,19 @@
               }}</NuxtLink>
             </li>
             <li class="pl-5 border-l py-5">
-              <div class="relative">
-                <button
-                  @click="modallang"
-                  class="flex items-end text-white hover:font-bold font-['Poppins'] font-light cursor-pointer"
+              <select
+                v-model="language"
+                class="bg-transparent outline-none text-[#1976dc]"
+              >
+                <option
+                  class="bg-[#323459] text-white"
+                  v-for="item in locales"
+                  :key="typeof item === 'object' ? item.code : item"
+                  :value="typeof item === 'object' ? item.code : item"
                 >
-                  <span>{{ langName_1 }}</span>
-                  <i
-                    :class="
-                      lang
-                        ? 'bx bx-chevron-up text-[#1976DC]'
-                        : 'bx bx-chevron-down text-[#1976DC]'
-                    "
-                  ></i>
-                </button>
-                <div
-                  :class="
-                    lang
-                      ? 'absolute z-10 right-2 top-8 w-[100px] rounded-l-lg rounded-b-lg bg-[#323459] flex flex-col'
-                      : 'hidden'
-                  "
-                >
-                  <button
-                    @click="modallang"
-                    class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
-                  >
-                    <a :href="localesKey">{{ langName_2 }}</a>
-                  </button>
-                  <button
-                    @click="modallang"
-                    class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
-                  >
-                    <a :href="localesKey2">{{ langName_3 }}</a>
-                  </button>
-                </div>
-              </div>
+                  {{ typeof item === "object" ? item.name : item }}
+                </option>
+              </select>
             </li>
             <li>
               <div class="relative">
@@ -156,7 +134,7 @@
               <div
                 :class="
                   bell
-                    ? 'absolute right-14 border w-[100px] rounded-l-lg rounded-b-lg top-0 bg-[#323459] flex flex-col'
+                    ? 'absolute left-14 border w-[300px] rounded-l-lg rounded-b-lg top-0 bg-[#323459] flex flex-col'
                     : 'hidden'
                 "
               >
@@ -203,35 +181,19 @@
               <img src="/Logo.png" alt="" width="150px" height="50px" />
             </NuxtLink>
           </div>
-          <div class="relative">
-            <button
-              @click="modallang"
-              class="flex items-center gap-4 text-white hover:font-bold font-['Poppins'] font-light cursor-pointer border p-1 rounded-lg border-[#1976DC]"
+          <select
+            v-model="language"
+            class="bg-transparent outline-none text-[#1976dc] border border-[#1976dc] p-1 rounded-lg"
+          >
+            <option
+              class="bg-[#323459] text-white"
+              v-for="item in locales"
+              :key="typeof item === 'object' ? item.code : item"
+              :value="typeof item === 'object' ? item.code : item"
             >
-              <i class="bx bx-world text-[#1976DC]"></i>
-              <span>{{ langName_1 }}</span>
-            </button>
-            <div
-              :class="
-                lang
-                  ? 'absolute z-10 right-0 top-10 rounded-l-lg rounded-b-lg bg-[#323459] flex flex-col'
-                  : 'hidden'
-              "
-            >
-              <button
-                @click="modallang"
-                class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
-              >
-                <a :href="localesKey">{{ langName_2 }}</a>
-              </button>
-              <button
-                @click="modallang"
-                class="bg-transparent text-white font-['Poppins'] font-light px-5 py-3"
-              >
-                <a :href="localesKey2">{{ langName_3 }}</a>
-              </button>
-            </div>
-          </div>
+              {{ typeof item === "object" ? item.name : item }}
+            </option>
+          </select>
         </div>
       </nav>
 
@@ -243,6 +205,15 @@
   <script setup>
 import { ref, onMounted } from "vue";
 const localPath = useLocalePath();
+
+const { locales, locale, setLocale } = useI18n();
+
+const language = computed({
+  get: () => locale.value,
+  set: (value) => {
+    setLocale(value);
+  },
+});
 
 const lang = ref(false);
 const modallang = () => {
@@ -275,12 +246,6 @@ const modalmenu = () => {
   }
 };
 
-const localesKey = ref("/uz-UZ");
-const localesKey2 = ref("/ru-RU");
-const langName_1 = ref("Eng");
-const langName_2 = ref("Uzb");
-const langName_3 = ref("Rus");
-
 onMounted(() => {
   window.addEventListener("scroll", function () {
     let header = document.querySelector("header");
@@ -288,32 +253,6 @@ onMounted(() => {
     header.classList.toggle("headerScroll", window.scrollY > 0);
     container.classList.toggle("border-none", window.scrollY > 0);
   });
-
-  const router = useRouter();
-  const key = ref(router.currentRoute._value.path);
-  console.log(router.currentRoute._value.path);
-
-  if (key.value == "/uz-UZ") {
-    localesKey.value = "/";
-    localesKey2.value = "/ru-RU";
-    langName_1.value = "Uzb";
-    langName_2.value = "Eng";
-    langName_3.value = "Rus";
-  }
-  else if (key.value == "/ru-RU") {
-    localesKey.value = "/";
-    localesKey2.value = "/uz-UZ";
-    langName_1.value = "Rus";
-    langName_2.value = "Eng";
-    langName_3.value = "Uzb";
-  }
-  else {
-    localesKey.value = "/uz-UZ";
-    localesKey2.value = "/ru-RU";
-    langName_1.value = "Eng";
-    langName_2.value = "Uzb";
-    langName_3.value = "Rus";
-  }
 });
 </script>
   
