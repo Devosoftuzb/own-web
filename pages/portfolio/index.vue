@@ -11,7 +11,7 @@
       alt="FOTO"
     />
     <img src="" alt="" />
-    <div class="container">
+    <div class="container mx-auto p-5">
       <h1 class="text-[#FFF]">{{ $t("header-portfolio") }}</h1>
       <p class="portfolio__hero__p text-[#6D6D6D]">
         Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -20,7 +20,7 @@
     </div>
   </section>
   <section class="portfolio__menu">
-    <div class="container">
+    <div class="container mx-auto p-5">
       <nav>
         <ul>
           <img src="/portfolio/menu.png" alt="foto" />

@@ -1,8 +1,8 @@
 <template>
-  <section class="service__hero m-5">
-    <div class="container">
-      <img class="sr__hero__bg1" src="/service/sr__hero__bg.png" alt="foto" />
-      <img class="sr__hero__bg2" src="/service/sr__hero__bg2.png" alt="foto" />
+  <section class="service__hero relative">
+    <img class="sr__hero__bg1 absolute top-0 left-0" src="/service/sr__hero__bg.png" alt="foto" />
+    <img class="sr__hero__bg2 absolute top-20 right-0" src="/service/sr__hero__bg2.png" alt="foto" />
+    <div class="container mx-auto p-5">
       <h1 class="text-[#FFF]">
         {{ $t("page3-hero-title") }}
       </h1>
@@ -10,8 +10,8 @@
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy
       </p>
-      <button class="sr__hero__btn__mob">
-        <img src="/about_img/Phone.png" alt="foto" />qo’ng’iroq qilish
+      <button class="sr__hero__btn__mob z-20">
+        <img src="/about_img/Phone.png" alt="foto" />{{ $t("Hero-brn-mobile") }}
       </button>
       <div class="sr__hero__wrapper">
         <div
@@ -104,8 +104,8 @@
           <label for="Maqsadingiz">{{ $t("section8-form-maqsad") }}</label
           ><input id="Maqsadingiz" class="outline-none" required type="text" />
           <button required class="form__btn" type="submit">
-            {{ $t("section8-btn") }}</button
-          >
+            {{ $t("section8-btn") }}
+          </button>
         </form>
         <div class="lg:flex flex-col items-center hidden">
           <img src="/about_img/form__img1.png" alt="foto" />
@@ -122,7 +122,7 @@
 <style>
 .service__hero {
   position: relative;
-  margin-top: 250px;
+  padding-top: 250px;
   margin-bottom: 175px;
 }
 .service__hero h1 {
@@ -194,7 +194,7 @@
   cursor: pointer;
   display: none;
 }
-.sr__hero__bg1 {
+/* .sr__hero__bg1 {
   position: absolute;
   left: -30px;
   top: -268px;
@@ -202,8 +202,8 @@
 .sr__hero__bg2 {
   position: absolute;
   top: -260px;
-  right: -30px;
-}
+  right: -60px;
+} */
 
 .sr__hero__wrapper {
   margin-top: 50px;

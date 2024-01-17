@@ -10,7 +10,7 @@
       src="/service/sr__hero__bg2.png"
       alt="foto"
     />
-    <div class="container">
+    <div class="container mx-auto p-5">
       <h1>CRM sistemasi</h1>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -23,7 +23,7 @@
     </div>
   </section>
   <section class="biznes">
-    <div class="container">
+    <div class="container mx-auto p-5">
       <div class="biznes__wrapper">
         <div class="biznes__content">
           <h1 class="text-[#FFF]">
@@ -46,7 +46,7 @@
             </p>
           </div>
         </div>
-        <div class="biznes__img">
+        <div class="biznes__img lg:block hidden">
           <img src="/service/biznes.png" alt="foto" />
         </div>
       </div>
@@ -58,32 +58,32 @@
       src="/about_img/about__hero__bg2.png"
       alt="foto"
     />
-    <div class="container">
+    <div class="container mx-auto p-5">
       <h1 class="text=[#FFF]">Buyurtma berish</h1>
       <form class="contact2__form">
         <div class="form__grid">
           <div>
-            <label for="tashkilot"> Tashkilot nomi *</label>
+            <label for="tashkilot" class="text-[16px] sm:text-[18px]">{{ $t("page4-form-name") }}</label>
             <input class="outline-none" id="tashkilot" type="text" required />
           </div>
           <div>
-            <label for="ism">Ism familya *</label
+            <label for="ism" class="text-[16px] sm:text-[18px]">{{ $t("page4-form-ism") }}</label
             ><input id="ism" class="outline-none" type="text" required />
           </div>
         </div>
         <div class="form__grid">
           <div>
-            <label for="telo">Telefon raqam *</label
+            <label for="telo" class="text-[16px] sm:text-[18px]">{{ $t("page4-form-tel") }}</label
             ><input class="outline-none" id="telo" type="text" required />
           </div>
           <div>
-            <label for="tur">CRM turi *</label
+            <label for="tur" class="text-[16px] sm:text-[18px]">{{ $t("page4-form-crm") }}</label
             ><input id="tur" type="text" class="outline-none" required />
           </div>
         </div>
-        <label class="maq" for="maq">Qisqacha maqsadiz *</label
+        <label class="maq text-[16px] sm:text-[18px]" for="maq">{{ $t("page4-form-maqsadi") }}</label
         ><input id="maq" class="coment1 outline-none" type="text" required />
-        <button>Jo’natish</button>
+        <button>{{ $t("page4-form-btn") }}</button>
       </form>
     </div>
   </section>
@@ -124,8 +124,8 @@
 
 <style>
 .contact2 {
-  margin-top: 200px;
-  margin-bottom: 181px;
+  padding-top: 250px;
+  margin-bottom: 100px;
   position: relative;
 }
 .contact2 h1 {
@@ -178,12 +178,10 @@
   width: 100%;
   border-radius: 10px;
   background: #323459;
-  padding: 45px;
+  padding: 30px;
   margin: 0 auto;
   position: relative;
   z-index: 2;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 .contact2 form input {
   color: #fff;
@@ -324,8 +322,7 @@
   right: 0;
   z-index: 0;
 }
-.contact2__form label {
-}
+
 @media (max-width: 440px) {
   .biznes__card {
     width: 300px;
@@ -339,7 +336,7 @@
   .maq {
     margin-bottom: 20px;
     display: block;
-    margin-left: 60px;
+    /* margin-left: 60px; */
   }
 }
 @media (max-width: 320px) {
@@ -354,11 +351,7 @@
   }
 }
 @media (max-width: 580px) {
-  .contact2 form {
-    width: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+  
   .contact2 form button {
     width: auto;
   }

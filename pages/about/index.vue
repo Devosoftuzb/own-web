@@ -24,7 +24,7 @@
     </div>
   </section>
   <section class="about__team">
-    <div class="container">
+    <div class="container mx-auto p-5">
       <div class="dev__ab">
         <div
           data-aos-duration="1500"
@@ -53,8 +53,13 @@
           <button>{{ $t("section4-btn") }}</button>
         </div>
       </div>
-      <button id="team__btn" class="sm:ml-0 ml-5 mt-20">
-        <img src="/about_img/Phone.png" alt="icon" /> qo’ng’iroq qilish
+      <button
+        data-aos-duration="1500"
+        data-aos="fade-left"
+        id="team__btn"
+        class="sm:ml-0 mt-10"
+      >
+        <img src="/about_img/Phone.png" alt="icon" />{{ $t("Hero-brn-mobile") }}
       </button>
       <div class="team__wrapper">
         <div
@@ -218,8 +223,8 @@
           <label for="Maqsadingiz">{{ $t("section8-form-maqsad") }}</label
           ><input id="Maqsadingiz" class="outline-none" required type="text" />
           <button required class="form__btn" type="submit">
-            {{ $t("section8-btn") }}</button
-          >
+            {{ $t("section8-btn") }}
+          </button>
         </form>
         <div class="lg:flex flex-col items-center hidden">
           <img src="/about_img/form__img1.png" alt="foto" />
@@ -237,7 +242,7 @@
 .st__hero {
   position: relative;
   padding-top: 150px;
-  padding-bottom: 180px;
+  padding-bottom: 100px;
 }
 .container {
   margin: 0 auto;
@@ -484,7 +489,7 @@
   .team__card {
     width: 240px;
     height: 265px;
-    padding-top: 172px;
+    padding-top: 200px;
   }
   .icon__wrapper {
     top: 120px;
@@ -603,7 +608,7 @@
   }
 
   #form__h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
   .form__img {
     display: none;
@@ -612,7 +617,7 @@
     padding: 62px 106px;
     border-radius: 10px;
     background: #323459;
-    box-shadow: 0px 0px 25px 0px rgba(255, 255, 255, 0.25);
+    /* box-shadow: 0px 0px 25px 0px rgba(255, 255, 255, 0.25); */
   }
   .form2 input {
     width: 100%;
@@ -710,9 +715,9 @@
   .team__wrapper {
     margin-left: 0;
   }
-  .dev__av__content {
+  /* .dev__av__content {
     margin-left: 10px;
-  }
+  } */
   .dev__av__img {
     display: none;
   }
@@ -723,7 +728,7 @@
   .dev__av__content button {
     display: none;
   }
-  .team__card{
+  .team__card {
     height: 90%;
     width: 80%;
   }
@@ -733,11 +738,11 @@
     display: none;
   }
 }
-.form__wrapper form {
+/* .form__wrapper form {
   margin-left: 0;
   margin-left: 20px;
   margin-right: 20px;
-}
+} */
 label {
   cursor: pointer;
   color: #fff;
