@@ -743,7 +743,7 @@
           ><input id="Maqsadingiz" class="outline-none" required type="text" />
           <button required class="form__btn" type="submit">
             {{ $t("section8-btn") }}</button
-          >I
+          >
         </form>
         <div class="lg:flex flex-col items-center hidden">
           <img src="/about_img/form__img1.png" alt="foto" />

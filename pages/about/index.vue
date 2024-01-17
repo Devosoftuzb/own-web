@@ -3,12 +3,12 @@
     <div class="container mx-auto p-5">
       <div class="st__hero__wrapper">
         <div class="st__hero__content">
-          <h1>Biz haqimizda</h1>
+          <h1>{{ $t("section4-title") }}</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy
           </p>
-          <button>Ko’proq bilish</button>
+          <button>{{ $t("section4-btn") }}</button>
         </div>
       </div>
       <img
@@ -50,7 +50,7 @@
             galley of type and scrambled it to make a type specimen book. It has
             survived not only five
           </p>
-          <button>Ko’proq bilish</button>
+          <button>{{ $t("section4-btn") }}</button>
         </div>
       </div>
       <button id="team__btn" class="sm:ml-0 ml-5 mt-20">
@@ -200,18 +200,10 @@
   </section>
   <section class="form">
     <div class="container mx-auto p-5">
-      <img
-        id="bg12"
-        class="form__bg1"
-        src="/about_img/about__hero__bg.png"
-        alt="foto"
-      />
-
-      <img class="form__bg2" src="/about_img/about__hero__bg2.png" alt="foto" />
       <div class="form__wrapper">
-        <form class="form2">
-          <span id="form__h1"> Biz bilan bog’lanish </span>
-          <label for="form__inp">Ism familya *</label
+        <form class="form2 sm:w-[500px]">
+          <span id="form__h1"> {{ $t("section8-title") }} </span>
+          <label for="form__inp">{{ $t("section8-form-name") }}</label
           ><input
             class="outline-none"
             required
@@ -219,15 +211,17 @@
             id="form__inp"
             type="text"
           />
-          <label for=" tel">Telefon raqamingiz</label
+          <label for="tel">{{ $t("section8-form-tel") }}</label
           ><input id="tel" class="outline-none" required type="text" />
-          <label for="Xizmat">Xizmat turi * </label
+          <label for="Xizmat">{{ $t("section8-form-xizmat") }}</label
           ><input id="Xizmat" class="outline-none" required type="text" />
-          <label for="Maqsadingiz">Maqsadingiz *</label
+          <label for="Maqsadingiz">{{ $t("section8-form-maqsad") }}</label
           ><input id="Maqsadingiz" class="outline-none" required type="text" />
-          <button required class="form__btn" type="submit">Yuborish</button>
+          <button required class="form__btn" type="submit">
+            {{ $t("section8-btn") }}</button
+          >
         </form>
-        <div class="form__img lg:block hidden">
+        <div class="lg:flex flex-col items-center hidden">
           <img src="/about_img/form__img1.png" alt="foto" />
           <img src="/about_img/form__ten.png" alt="foto" />
         </div>
