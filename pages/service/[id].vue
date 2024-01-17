@@ -55,14 +55,15 @@
             </h1>
             <form class="contact2__form">
                 <div class="form__grid">
-                    <input type="text" placeholder="Tashkilot nomi *" required>
-                    <input type="text" placeholder="Ism familya *" required>
+                   <div><label for="tashkilot"> Tashkilot nomi *</label> <input  class="outline-none" id="tashkilot" type="text"  required></div>
+                    <div><label for="ism">Ism familya *</label><input id="ism"  class="outline-none" type="text"  required></div>
                 </div>
                 <div class="form__grid">
-                    <input type="text" placeholder="Telefon raqam *" required>
-                    <input type="text" placeholder="CRM turi *" required>
+                    <div><label for="telo">Telefon raqam *</label><input class="outline-none"    id="telo"  type="text"  required></div>
+                    <div><label for="tur">CRM turi *</label><input id="tur" type="text" class="outline-none"  required></div>
+                   
                 </div>
-                <input class="coment1" type="text" placeholder="Qisqacha maqsadiz *" required>
+                <label class="maq" for="maq">Qisqacha maqsadiz *</label><input id="maq" class="coment1 outline-none" type="text"     required>
                 <button>
                     Jo’natish
                 </button>
@@ -76,17 +77,23 @@
             <img class="form__bg2" src="/about_img/about__hero__bg2.png" alt="foto">
             <div class="form__wrapper">
                 <form class="form2">
-                    <span     id="form__h1" >
-                        Biz bilan bog’lanish
-                    </span>
-                    <input required style="" id="form__inp" type="text" placeholder="Ism familya *">
-                    <input required type="text" placeholder="Telefon raqamingiz *">
-                    <input required type="text" placeholder="Xizmat turi * " >
-                    <input required type="text" placeholder="Maqsadingiz *">
-                    <button required class="form__btn" type="submit">
-                        Yuborish
-                    </button>
-                </form>
+                    <span id="form__h1"> Biz bilan bog’lanish </span>
+                    <label for="form__inp">Ism familya *</label
+                    ><input
+                        class="outline-none"
+                        required
+                        style=""
+                        id="form__inp"
+                        type="text"
+                    />
+                    <label for=" tel">Telefon raqamingiz</label
+                    ><input id="tel" class="outline-none" required type="text" />
+                    <label for="Xizmat">Xizmat turi * </label
+                    ><input id="Xizmat" class="outline-none" required type="text" />
+                    <label for="Maqsadingiz">Maqsadingiz *</label
+                    ><input id="Maqsadingiz" class="outline-none" required type="text" />
+                    <button required class="form__btn" type="submit">Yuborish</button>
+                    </form>
                 <div class="form__img">
                     <img src="/about_img/form__img1.png" alt="foto">
                     <img src="/about_img/form__ten.png" alt="foto">
@@ -182,6 +189,9 @@
         align-items: center;
         justify-content: space-between;
         gap: 100px;
+    }
+    .form__grid div{
+        width: 100%;
     }
     .contact2 form button{
         display: flex;
@@ -292,6 +302,8 @@
         right: 0;
         z-index: 0;
     }
+    .contact2__form label{
+    }
     @media(max-width:440px){
         .biznes__card{
             width: 300px;
@@ -302,6 +314,11 @@
         .biznes h1{
             font-size: 25px;
         }
+        .maq{
+        margin-bottom: 20px;
+        display: block;
+        margin-left: 60px;
+    }
     }
     @media(max-width:320px){
         .biznes__card{
@@ -361,7 +378,7 @@
     }
     @media(max-width:450px){
         .contact2 form input {
-            width: auto;
+            width: 100%;
         }
     }
     @media(max-width:980px){

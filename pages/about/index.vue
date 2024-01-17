@@ -704,7 +704,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 50px;
-  margin-bottom: 125px;
+  margin-bottom: 50px;
 }
 @media (max-width: 990px) {
   .dev__ab {
@@ -724,10 +724,14 @@
   }
   .dev__av__content p {
     width: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .dev__av__content button {
     display: none;
+  }
+  .team__card{
+    height: 90%;
+    width: 80%;
   }
 }
 @media (max-width: 930px) {
