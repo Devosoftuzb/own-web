@@ -375,11 +375,10 @@
     #fff;
 }
 .team__card {
-  padding-top: 258px;
   width: 300px;
   height: 350px;
   background-image: url("/about_img/team__1.png");
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
@@ -388,6 +387,11 @@
   height: 92px;
   background: rgba(231, 101, 20, 0.75);
   padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 1;
 }
 .taem__card__content h2 {
   color: #fff;
@@ -414,11 +418,11 @@
 .team__card:hover .over__bg {
   color: #6d6d6d;
   display: block;
-  display: block;
   display: flex;
   align-items: center;
   gap: 10px;
   left: 0px;
+  z-index: 2;
 }
 
 .team__card:hover .icon__wrapper {
@@ -437,6 +441,7 @@
   right: 0;
   bottom: 0;
   display: none;
+  z-index: 2;
 }
 .team__card {
   position: relative;
@@ -729,8 +734,8 @@
     display: none;
   }
   .team__card {
-    height: 90%;
-    width: 80%;
+    height: 300px;
+    width: 90%;
   }
 }
 @media (max-width: 930px) {
